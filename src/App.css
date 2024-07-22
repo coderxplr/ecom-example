@@ -28,6 +28,38 @@
   color: #61dafb;
 }
 
+/*navigation bar */
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
+  color: #4A4A4A;
+  text-decoration: none;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #C5A467; /* Adjust to your gold color */
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-link:hover {
+  color: #1F1F1F; /* Adjust hover color if needed */
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +68,6 @@
     transform: rotate(360deg);
   }
 }
+
+/* Header */
+
