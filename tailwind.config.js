@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        futura: ['Futura', 'sans-serif'],
+        lexend: ['Lexend', 'sans-serif'],
       },
       colors: {
         gold: {

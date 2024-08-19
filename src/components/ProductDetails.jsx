@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { productsData } from '../seeders/data';
+import { productsData } from '../seeders/data2';
 
 const ProductDetails = () => {
     const { productName } = useParams();
@@ -75,13 +75,17 @@ const ProductDetails = () => {
         return `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
     };
 
+    console.log("product: ",product);
+    
+
     return (
-        <div className="container mx-auto p-4 flex flex-col lg:flex-row">
-            <div className="flex-1 flex flex-col items-center">
+        <div className="container mx-auto p-4 flex flex-col lg:flex-row" style={{ fontFamily: 'lexand' }}>
+            <div className="flex-1 flex flex-col items-center ">
                 <img
                     src={mainImage}
                     alt={product.ProductName}
-                    className="w-full h-96 object-cover"
+                    className="w-full h-96 p-1 object-contain border"
+                    // style={{ objectFit: "cover" }}
                 />
                 <div className="flex justify-center mt-4 flex-wrap">
                     {selectedColor.Images.map((image, index) => (
@@ -99,8 +103,9 @@ const ProductDetails = () => {
                 <h1 className="text-3xl font-semibold">{product.ProductName}</h1>
                 <p className="text-lg mt-2">{product.Description}</p>
                 <div className="mt-4">
-                    <h2 className="text-xl font-semibold">Category: </h2><span>{product.Category}</span>
-                    <h2 className="text-xl font-semibold">Finish: </h2><span>{product.Finish}</span>
+                    <span className="text-xl font-semibold">Category: </span><span>{product.Category}</span>
+                    <br/>
+                    <span className="text-xl font-semibold">Finish: </span><span>{product.Variants[0].Finish}</span>
                     <div className="mt-4">
                         <label className="block text-lg font-semibold">Size</label>
                         <select
@@ -110,7 +115,7 @@ const ProductDetails = () => {
                         >
                             {selectedVariant.Sizes.map(size => (
                                 <option key={size.Length + size.Width + size.Height} value={JSON.stringify(size)}>
-                                    {`${size.Length} x ${size.Width} x ${size.Height}`}
+                                    {`${size.Length} x ${size.Width}`}
                                 </option>
                             ))}
                         </select>

@@ -431,7 +431,6 @@ const productsData = [
     Category: "Leather Polish",
     CategoryID: "L001",
     Type: "Natural",
-    isRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -461,7 +460,6 @@ const productsData = [
     Category: "Leather Polish",
     CategoryID: "L001",
     Type: "Natural",
-    isRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -491,7 +489,6 @@ const productsData = [
     Category: "Wall Cladding",
     CategoryID: "WC001",
     Type: "Natural",
-    isRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -558,7 +555,6 @@ const productsData = [
     Category: "Wall Cladding",
     CategoryID: "WC001",
     Type: "Natural",
-    isRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -625,7 +621,6 @@ const productsData = [
     Category: "Wall Cladding",
     CategoryID: "WC003",
     Type: "Natural",
-    isRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -692,7 +687,6 @@ const productsData = [
     Category: "Wall Cladding",
     CategoryID: "WC004",
     Type: "Natural",
-    isRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -759,7 +753,6 @@ const productsData = [
     Category: "Cobble",
     CategoryID: "C001",
     Type: "Natural",
-    isRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -799,7 +792,6 @@ const productsData = [
     Category: "Cobble",
     CategoryID: "C002",
     Type: "Natural",
-    isRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -839,7 +831,6 @@ const productsData = [
     Category: "Cobble",
     CategoryID: "CP003",
     Type: "Natural",
-    isRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -879,7 +870,6 @@ const productsData = [
     Category: "Cobble",
     CategoryID: "C004",
     Type: "Natural",
-    isRecommended: true,
     Variants: [
       {
         VariantID: "001A",

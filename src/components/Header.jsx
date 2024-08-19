@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import '../App.css'; // Import the CSS file for custom styles
 import { useNavigate } from 'react-router-dom';
-import logo from '../Assets/images/logo.png'
+import {  FaWhatsapp, FaInstagram, FaFacebook, FaYoutube } from 'react-icons/fa';
+
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -25,19 +26,13 @@ const Header = () => {
         }
     };
 
-    const toggleSearchClose = () => {
-        setSearchOpen(!searchOpen);
-    };
-    const toggleSearch = () => {
-        setSearchOpen(!searchOpen);
-    };
-
     const menuItems = [
-        { label: 'Home', href: '/' },
+        // { label: 'Home', href: '/' },
         { label: 'About', href: '/about' },
-        // { label: 'Categories', href: '/categories', dropdown: ['Standard', 'Premium', 'Parking', 'Garden', 'Steps', 'Kitchen', 'Wall Cladding', 'Risers', 'Skirtings'] },
-        { label: 'Categories', href: '/categories'},
-        { label: 'Products', href: '/products' },
+        { label: 'Natural Stones', href: '/categories' },
+        // { label: 'Natural Stones', href: '/categories'},
+        { label: 'Gallery', href: '/gallery'},
+        { label: 'Contact Us', href: '/contactus' },
         // { label: 'Design Suggestions', href: '/designs-suggestions', dropdown:['Garden','Living','Master Bedroom','Bedroom','Kitchen','Dinning Room','Sitout','Power Room','Balcony','Prayer Room','Terrace','Commercial','Restaurants','Cafes'] },
         // { label: 'Display Center', href: '/display-center'},
         // { label: 'Our Work', href: '/our-work' },
@@ -45,17 +40,17 @@ const Header = () => {
     ];
 
     return (
-        <header className="bg-white shadow-md p-4">
+        <header className="bg-white shadow-md p-4 " style={{ fontFamily: 'lexand' }}>
             <div className={`container mx-auto flex justify-between items-center px-8 ${searchOpen ? 'hidden' : 'flex'}`}>
                 <div className="flex items-center space-x-4">
-                    <a href="/">
+                    {/* <a href="/">
                     <img src={logo} alt="logo" className="h-20 w-20" />
                     </a>
-                    {/* <h2 className="text-gold-700 text-xl font-semibold">Ace Natural Stones</h2> */}
+                    <h2 className="text-gold-700 text-xl font-semibold">Ace Natural Stones</h2> */}
                 </div>
                 <nav className="hidden md:flex space-x-10">
                     {menuItems.map((item, index) => (
-                        <a key={index} href={item.href} className="nav-link text-xl">{item.label.toUpperCase()}</a>
+                        <a key={index} href={item.href} className="nav-link text-xl text-gray-500" style={{ fontFamily: 'lexand' }}>{item.label.toUpperCase()}</a>
                     ))}
                 </nav>
                 <div className="flex items-center space-x-4">
@@ -125,22 +120,19 @@ const Header = () => {
                     ))}
 
                     {/* Social Media Icons */}
-                    <div className="flex justify-center space-x-4 mt-4">
-                        <a href="https://www.instagram.com/ace_natural_stones?igsh=MWloZ200M3J4c2p0dQ==" target="_blank" rel="noopener noreferrer" className="border border-gold-700 rounded-full p-2">
-                            <svg className="w-6 h-6 text-gold-700" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.9.3 2.4.5.6.3 1 .6 1.5 1.1.4.4.8.8 1.1 1.5.2.5.4 1.2.5 2.4.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.9-.5 2.4-.3.6-.6 1-1.1 1.5-.4.4-.8.8-1.5 1.1-.5.2-1.2.4-2.4.5-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.9-.3-2.4-.5-.6-.3-1-.6-1.5-1.1-.4-.4-.8-.8-1.1-1.5-.2-.5-.4-1.2-.5-2.4-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.3-1.9.5-2.4.3-.6.6-1 1.1-1.5.4-.4.8-.8 1.5-1.1.5-.2 1.2-.4 2.4-.5C8.4 2.2 8.8 2.2 12 2.2M12 0c-3.3 0-3.7 0-5 .1-1.3.1-2.2.3-3 .6-.8.3-1.5.7-2.1 1.3-.6.6-1 1.3-1.3 2.1-.3.8-.5 1.7-.6 3C0 8.3 0 8.7 0 12s0 3.7.1 5c.1 1.3.3 2.2.6 3 .3.8.7 1.5 1.3 2.1.6.6 1.3 1 2.1 1.3.8.3 1.7.5 3 .6 1.3.1 1.7.1 5 .1s3.7 0 5-.1c1.3-.1 2.2-.3 3-.6.8-.3 1.5-.7 2.1-1.3.6-.6 1-1.3 1.3-2.1.3-.8.5-1.7.6-3 .1-1.3.1-1.7.1-5s0-3.7-.1-5c-.1-1.3-.3-2.2-.6-3-.3-.8-.7-1.5-1.3-2.1-.6-.6-1.3-1-2.1-1.3-.8-.3-1.7-.5-3-.6C15.7 0 15.3 0 12 0zm0 5.8c-3.4 0-6.2 2.8-6.2 6.2s2.8 6.2 6.2 6.2 6.2-2.8 6.2-6.2-2.8-6.2-6.2-6.2zm0 10.3c-2.2 0-4.1-1.8-4.1-4.1s1.8-4.1 4.1-4.1 4.1 1.8 4.1 4.1-1.9 4.1-4.1 4.1zm6.4-11.9c-.8 0-1.4.6-1.4 1.4s.6 1.4 1.4 1.4 1.4-.6 1.4-1.4-.6-1.4-1.4-1.4z" />
-                            </svg>
+                    <div className="flex justify-center space-x-4 mt-6">
+                        <a href="https://www.instagram.com/ace_natural_stones?igsh=MWloZ200M3J4c2p0dQ==" target="_blank" rel="noopener noreferrer" className="border border-pink-700 rounded-full p-2">
+                            <FaInstagram className="text-pink-600 text-2xl"/>
                         </a>
 
-                        <a href="https://www.youtube.com/@acenaturalstones" target="_blank" rel="noopener noreferrer" className="border border-gold-700 rounded-full p-2">
-                            <svg className="w-6 h-6 text-gold-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M23.5 6.6c-.3-1.2-1.2-2.1-2.4-2.4C19 4 12 4 12 4s-7 0-9.1.2C1.7 4.5.8 5.4.5 6.6.2 8.6.2 12 .2 12s0 3.4.3 5.4c.3 1.2 1.2 2.1 2.4 2.4C5 20 12 20 12 20s7 0 9.1-.2c1.2-.3 2.1-1.2 2.4-2.4.3-2 .3-5.4.3-5.4s0-3.4-.3-5.4zm-13 8.8V8.6l6.2 3.4-6.2 3.4z" />
-                            </svg>
+                        <a href="https://www.youtube.com/@acenaturalstones" target="_blank" rel="noopener noreferrer" className="border border-red-600 rounded-full p-2">
+                            <FaYoutube className="text-red-600 text-2xl"/>
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=61562053136503&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" className="border border-gold-700 rounded-full p-2">
-                            <svg className="w-6 h-6 text-gold-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M22.7 0H1.3C.6 0 0 .6 0 1.3v21.4C0 23.4.6 24 1.3 24H12v-9.3H9v-3.6h3V8.3c0-2.7 1.6-4.2 4-4.2 1.2 0 2.3.1 2.7.1v3H17c-1.4 0-1.6.7-1.6 1.6v2.1h3.2l-.4 3.6h-2.8V24h5.5c.7 0 1.3-.6 1.3-1.3V1.3c0-.7-.6-1.3-1.3-1.3z" />
-                            </svg>
+                        <a href="https://www.facebook.com/profile.php?id=61562053136503&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" className="border border-blue-600 rounded-full p-2">
+                            <FaFacebook className="text-blue-600 text-2xl"/>
+                        </a>
+                        <a href="https://wa.me/message/OCUCMZG4DRCPF1" target="_blank" rel="noopener noreferrer" className="border border-green-600 rounded-full p-2">
+                            <FaWhatsapp className="text-green-600 text-2xl"/>
                         </a>
                     </div>
                 </div>

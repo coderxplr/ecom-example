@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const Banners = () => {
-  const sliderRef = React.useRef(null);
+  const [activeSlide, setActiveSlide] = useState(0);
+  const [loading, setLoading] = useState([true, true, true]);
+  const sliderRef = useRef(null);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const updatedLoading = [...loading];
+      updatedLoading[0] = false;
+      setLoading(updatedLoading);
+    }, 1000); // 5 seconds delay
+
+    return () => clearTimeout(timer);
+  }, []);
 
   const settings = {
     dots: true,
@@ -12,9 +24,19 @@ const Banners = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
     arrows: false,
+    beforeChange: (current, next) => {
+      setActiveSlide(next);
+    },
+    afterChange: (current) => {
+      if (loading[current]) {
+        const updatedLoading = [...loading];
+        setTimeout(() => {
+          updatedLoading[current] = false;
+          setLoading(updatedLoading);
+        }, 5000); // 5 seconds delay
+      }
+    },
   };
 
   const goNext = () => {
@@ -26,39 +48,90 @@ const Banners = () => {
   };
 
   return (
-    <div className="w-90 overflow-hidden relative">
+    <div className="w-90 h-[400px] overflow-hidden relative" style={{ fontFamily: 'lexand' }}>
       <style>
         {`
-          .slick-slide img {
-            height: 500px; /* Default height for desktop */
+          .slick-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 400px; /* Set height for all screens */
+          }
+
+          iframe {
+            width: 100%;
+            height: 100%; /* Ensures the iframe takes the full space */
           }
 
           @media (max-width: 768px) {
-            .slick-slide img {
-              height: 400px; /* Increased height for mobile */
+            .slick-slide {
+              height: 400px; /* Adjusted height for mobile */
             }
+          }
+
+          .dot-loader {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .dot-loader div {
+            width: 10px;
+            height: 10px;
+            margin: 5px;
+            background-color: white;
+            border-radius: 50%;
+            animation: dot-bounce 1.4s infinite ease-in-out both;
+          }
+
+          @keyframes dot-bounce {
+            0%, 80%, 100% {
+              transform: scale(0);
+            }
+            40% {
+              transform: scale(1);
+            }
+          }
+
+          .dot-loader div:nth-child(1) {
+            animation-delay: -0.32s;
+          }
+          .dot-loader div:nth-child(2) {
+            animation-delay: -0.16s;
           }
         `}
       </style>
       <Slider ref={sliderRef} {...settings}>
-        <div className="relative">
-          <img src="https://www.gharjunction.com/img/blog/351.jpg" alt="Slide 1" className="w-full" />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-2xl">
-            Welcome to Our Website
+        {[0, 1, 2].map((index) => (
+          <div className="relative bg-gray-800 h-[400px]" key={index}>
+            {loading[index] ? (
+              <div className="absolute inset-0 flex items-center justify-center bg-gray-800 h-[400px]">
+                <div className="dot-loader">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+            ) : (
+              <iframe
+                src={
+                  activeSlide === index
+                    ? index === 0
+                      ? "https://www.youtube.com/embed/cezinvfQBSk?autoplay=1&mute=1&loop=1&playlist=cezinvfQBSk"
+                      : index === 1
+                      ? "https://www.youtube.com/embed/h4gZ-4Ytnlo?autoplay=1&mute=1&loop=1&playlist=h4gZ-4Ytnlo"
+                      : "https://www.youtube.com/embed/UcnI8E34t_U?autoplay=1&mute=1&loop=1&playlist=UcnI8E34t_U"
+                    : ""
+                }
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+                title={`Video ${index + 1}`}
+              ></iframe>
+            )}
           </div>
-        </div>
-        <div className="relative">
-          <img src="https://images.jdmagicbox.com/quickquotes/images_main/-012e9fhm.gif" alt="Slide 2" className="w-full" />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-2xl">
-            Discover Our Services
-          </div>
-        </div>
-        <div className="relative">
-          <img src="https://www.tileexperience.co.uk/media/catalog/product/t/u/tumbnail_540f5174-49c0-4616-a4b2-37a0df9a81a1.jpg?store=default&image-type=image" alt="Slide 3" className="w-full" />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-2xl">
-            Contact Us Today
-          </div>
-        </div>
+        ))}
       </Slider>
       <button
         onClick={goPrev}
