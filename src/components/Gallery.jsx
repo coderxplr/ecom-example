@@ -35,7 +35,7 @@ const Gallery = () => {
       {/* <h1 className="text-center mt-6 text-3xl font-serif text-gray-700">Gallery</h1> */}
 
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 justify-center">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 justify-center">
           {images.map(image => (
             <div 
               key={image.id} 

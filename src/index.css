@@ -4,7 +4,7 @@
 
 
 
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -16,4 +16,46 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+
+@layer utilities {
+  @keyframes box1animation {
+    0%, 50%, 100% {
+      width: 1px;
+    }
+    12.5%, 25% {
+      width: 60px;
+    }
+  }
+  
+  @keyframes box2animation {
+    0%, 25%, 100% {
+      width: 1px;
+    }
+    37.5%, 50% {
+      width: 60px;
+    }
+  }
+
+  @keyframes box3animation {
+    0%, 25%, 100% {
+      width: 1px;
+    }
+    50%, 62.5% {
+      width: 60px;
+    }
+  }
+  
+  .animate-box1animation {
+    animation: box1animation 4s infinite ease-in-out forwards;
+  }
+  
+  .animate-box2animation {
+    animation: box2animation 4s infinite ease-in-out forwards;
+  }
+
+  .animate-box3animation {
+    animation: box3animation 4s infinite ease-in-out forwards;
+  }
 }

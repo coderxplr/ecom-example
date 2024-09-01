@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
-import { productsData } from "../seeders/data2"; // Assuming productsData is exported as named export
+import { productsData } from "../seeders/data"; // Assuming productsData is exported as named export
 
 const RecommendedProducts = () => {
   const navigate = useNavigate(); // Initialize useNavigate
@@ -38,7 +38,7 @@ const RecommendedProducts = () => {
                 // style={{ objectFit: "cover" }}
               />
             </div>
-            <div className="bg-yellow-700 w-full text-center">
+            <div className="bg-yellow-700 w-full text-center pb-1">
               <p
                 className={'text-sm pt-2 text-white'}
                 style={{ fontFamily: "lexand" }}

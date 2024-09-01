@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { productsData } from '../seeders/data2';
+import { productsData } from '../seeders/data';
 
 const ProductDetails = () => {
     const { productName } = useParams();
@@ -40,14 +40,6 @@ const ProductDetails = () => {
         return <div>Loading...</div>;
     }
 
-    const handleVariantChange = (variantID) => {
-        const variant = product.Variants.find(v => v.VariantID === variantID);
-        setSelectedVariant(variant);
-        setSelectedColor(variant.Colors[0]);
-        setSelectedSize(variant.Sizes[0]);
-        setMainImage(variant.Colors[0].Images[0]);
-    };
-
     const handleColorChange = (colorName) => {
         const color = selectedVariant.Colors.find(c => c.ColorName === colorName);
         setSelectedColor(color);
@@ -61,7 +53,7 @@ const ProductDetails = () => {
     // Function to create a WhatsApp URL with the product details and main image link
     const createWhatsAppUrl = () => {
         const phoneNumber = "+916302141511"; // Add the specific phone number here
-        const URL = process.env.REACT_APP_URL
+        // const URL = process.env.REACT_APP_URL
         const message = `Check out this product: ${product.ProductName}\n\n`
             + `${product.Description}\n`
             + `Category: ${product.Category}\n`
@@ -70,7 +62,7 @@ const ProductDetails = () => {
             // + `Price: $${selectedSize.Price}\n`
             // + `${selectedSize.InStock ? '' : '(Out of Stock)'}\n`
             + `Image:\n`
-            + `${URL}${mainImage}\n`;
+            + `${mainImage}\n`;
 
         return `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
     };

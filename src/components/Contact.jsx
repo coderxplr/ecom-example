@@ -3,9 +3,7 @@ import { FaPhoneAlt, FaWhatsapp, FaMapMarkerAlt, FaEnvelope, FaInstagram, FaFace
 
 const Contact = () => {
   const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
-  const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
   const handleSendEmail = () => {
@@ -87,19 +85,6 @@ const Contact = () => {
                 required
               />
             </div>
-            {/* <div>
-              <label className="block text-lg sm:text-xl font-semibold text-black mb-2" htmlFor="email">
-                Email:
-              </label>
-              <input
-                type="email"
-                id="email"
-                className="w-full p-2 border border-gray-300 rounded-lg"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-              />
-            </div> */}
             <div>
               <label className="block text-lg sm:text-xl font-semibold text-black mb-2" htmlFor="phone">
                 Phone number:
@@ -113,19 +98,6 @@ const Contact = () => {
                 required
               />
             </div>
-            {/* <div>
-              <label className="block text-lg sm:text-xl font-semibold text-black mb-2" htmlFor="subject">
-                Subject:
-              </label>
-              <input
-                type="text"
-                id="subject"
-                className="w-full p-2 border border-gray-300 rounded-lg"
-                value={subject}
-                onChange={(e) => setSubject(e.target.value)}
-                required
-              />
-            </div> */}
             <div>
               <label className="block text-lg sm:text-xl font-semibold text-black mb-2" htmlFor="message">
                 Message:

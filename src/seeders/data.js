@@ -81,7 +81,7 @@ const productsData = [
     Category: "Center Piece",
     CategoryID: "CP001",
     Type: "Natural",
-    isRecommended: true,
+    IsRecommended: true,
     Finish: "High Polished",
     Variants: [
       {
@@ -136,7 +136,7 @@ const productsData = [
     Category: "Side Piece",
     CategoryID: "S001",
     Type: "Natural",
-    isRecommended: true,
+    IsRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -191,7 +191,7 @@ const productsData = [
     Category: "Outdoor",
     CategoryID: "OOP050",
     Type: "Natural",
-    isRecommended: true,
+    IsRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -236,7 +236,7 @@ const productsData = [
     Category: "Outdoor",
     CategoryID: "OP050",
     Type: "Natural",
-    isRecommended: true,
+    IsRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -281,7 +281,7 @@ const productsData = [
     Category: "Outdoor",
     CategoryID: "OP050",
     Type: "Natural",
-    isRecommended: true,
+    IsRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -326,7 +326,7 @@ const productsData = [
     Category: "Outdoor",
     CategoryID: "O050",
     Type: "Natural",
-    isRecommended: true,
+    IsRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -371,7 +371,7 @@ const productsData = [
     Category: "Leather Polish",
     CategoryID: "L001",
     Type: "Natural",
-    isRecommended: true,
+    IsRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -401,7 +401,7 @@ const productsData = [
     Category: "Leather Polish",
     CategoryID: "L002",
     Type: "Natural",
-    isRecommended: true,
+    IsRecommended: true,
     Variants: [
       {
         VariantID: "001A",

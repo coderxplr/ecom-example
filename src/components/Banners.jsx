@@ -118,10 +118,10 @@ const Banners = () => {
                 src={
                   activeSlide === index
                     ? index === 0
-                      ? "https://www.youtube.com/embed/cezinvfQBSk?autoplay=1&mute=1&loop=1&playlist=cezinvfQBSk"
+                      ? "https://www.youtube.com/embed/2dFQrN7z6dk?autoplay=1&mute=1&loop=1&playlist=2dFQrN7z6dk"
                       : index === 1
-                      ? "https://www.youtube.com/embed/h4gZ-4Ytnlo?autoplay=1&mute=1&loop=1&playlist=h4gZ-4Ytnlo"
-                      : "https://www.youtube.com/embed/UcnI8E34t_U?autoplay=1&mute=1&loop=1&playlist=UcnI8E34t_U"
+                      ? "https://www.youtube.com/embed/dnO3XFOt3rU?autoplay=1&mute=1&loop=1&playlist=dnO3XFOt3rU"
+                      : "https://www.youtube.com/embed/BilVQOHvF_4?autoplay=1&mute=1&loop=1&playlist=BilVQOHvF_4"
                     : ""
                 }
                 frameBorder="0"

@@ -11,6 +11,7 @@ import NotFound from './components/NotFound';
 import TopBar from './components/TopBar'
 import Contact from './components/Contact';
 import Gallery from './components/Gallery';
+import './index.css'
 
 function App() {
   return (

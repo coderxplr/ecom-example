@@ -76,4 +76,11 @@ body {
 }
 
 /* Header */
+.group:hover .group-hover\:block {
+  display: block;
+}
+
+.relative:hover .group-hover\:block {
+  display: block;
+}
 
