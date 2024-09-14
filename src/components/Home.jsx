@@ -3,7 +3,7 @@ import '../App.css'; // Import the CSS file for custom styles
 import HomeAbout from './HomeAbout';
 import Banners from './Banners';
 import Categories from './Categories';
-import RecommendedProducts from './RecomendedProducts';
+// import RecommendedProducts from './RecomendedProducts';
 import ContactSummary from './ContactSummary';
 import OrderForm from './OrderForm';
 // import Footer from './Footer';
@@ -14,7 +14,7 @@ const Home = () => {
             <Banners/>
             <Categories/>
             <OrderForm/>
-            <RecommendedProducts/>
+            {/* <RecommendedProducts/> */}
             <HomeAbout/>
             <ContactSummary/>
         </div>

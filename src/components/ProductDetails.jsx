@@ -3,10 +3,10 @@ import { useParams } from 'react-router-dom';
 import { productsData } from '../seeders/data';
 
 const ProductDetails = () => {
-    const { productName } = useParams();
+    console.log("useParams(): ",useParams())
+    const { ProductId } = useParams();
     // Replace hyphens with spaces to match product names
-    const decodedProductName = productName.replace(/-/g, ' ');
-    const product = productsData.find(p => p.ProductName === decodedProductName);
+    const product = productsData.find(p => p.ProductId === ProductId);
 
     // Initialize state with default values
     const [selectedVariant, setSelectedVariant] = useState(null);
@@ -56,8 +56,10 @@ const ProductDetails = () => {
         // const URL = process.env.REACT_APP_URL
         const message = `Check out this product: ${product.ProductName}\n\n`
             + `${product.Description}\n`
-            + `Category: ${product.Category}\n`
+            // + `Category: ${product.Category}\n`
             + `Finish: ${product.Finish}\n`
+            + `Edge: ${product?.Variants[0]?.Colors[0]?.Edge}\n`
+            + `Colors: ${product?.Variants[0]?.Colors[0]?.ColorName}\n`
             + `Selected Size: ${selectedSize.Length} x ${selectedSize.Width} x ${selectedSize.Height}\n`
             // + `Price: $${selectedSize.Price}\n`
             // + `${selectedSize.InStock ? '' : '(Out of Stock)'}\n`
@@ -95,9 +97,17 @@ const ProductDetails = () => {
                 <h1 className="text-3xl font-semibold">{product.ProductName}</h1>
                 <p className="text-lg mt-2">{product.Description}</p>
                 <div className="mt-4">
-                    <span className="text-xl font-semibold">Category: </span><span>{product.Category}</span>
-                    <br/>
+                    {/* <span className="text-xl font-semibold">Category: </span><span>{product.Category}</span>
+                    <br/> */}
                     <span className="text-xl font-semibold">Finish: </span><span>{product.Variants[0].Finish}</span>
+                    <br/>
+                    {product?.Variants[0]?.Colors[0]?.Edge && (<span>
+                        <span className="text-xl font-semibold">Edge: </span>
+                        <span>{product?.Variants[0]?.Colors[0]?.Edge}</span>
+                      </span>
+                    )}
+                    <br/>
+                    <span className="text-xl font-semibold">Colors: </span><span>{product?.Variants[0]?.Colors[0]?.ColorName}</span>
                     <div className="mt-4">
                         <label className="block text-lg font-semibold">Size</label>
                         <select

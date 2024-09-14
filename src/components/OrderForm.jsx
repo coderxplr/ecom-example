@@ -44,7 +44,7 @@ const OrderForm = () => {
     return (
         <div className='flex justify-center' style={{ fontFamily: 'lexand' }}>
         <div className="mb-8 w-full bg-white p-6">
-            <h2 className="text-3xl sm:text-3xl font-semibold text-black mb-4 text-center">Special Customization Orders</h2>
+            <h2 className="text-3xl sm:text-3xl font-semibold text-black mb-4 text-center">Custom Orders</h2>
             <p className="text-lg sm:text-xl text-black mb-4">
                 Please fill out the details below to customize your order. When you're ready, share your order via WhatsApp for quick processing.
             </p>

@@ -28,13 +28,13 @@ const Categories = () => {
               <img
                 className="w-full h-48 p-1 object-contain"
                 src={category.CategoryImage}
-                alt={category.categoryName}
+                alt={category.CategoryName}
                 style={{ objectFit: "cover" }
             }
               />
             </div>
             <div className="bg-yellow-700 w-full text-center">
-                <p className="text-lg pt-2 text-white" style={{ fontFamily: 'lexand' }}>{category.categoryName}</p>
+                <p className="text-lg pt-2 text-white" style={{ fontFamily: 'lexand' }}>{category.CategoryName}</p>
             </div>
               
           </div>

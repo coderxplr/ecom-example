@@ -29,7 +29,7 @@ const Header = () => {
         <Menu>
             {categoriesData.map((category) => (
                 <Menu.Item key={category.CategoryID} onClick={() => handleCategoryClick(category)}>
-                    {category.categoryName}
+                    {category.CategoryName}
                 </Menu.Item>
             ))}
         </Menu>
@@ -109,7 +109,7 @@ const Header = () => {
                                                     onClick={() => handleCategoryClick(category)}
                                                     className="py-1 cursor-pointer"
                                                 >
-                                                    {category.categoryName}
+                                                    {category.CategoryName}
                                                 </div>
                                             ))}
                                         </div>

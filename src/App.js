@@ -28,7 +28,7 @@ function App() {
           <Route path="/about" element={<About/>} />
           <Route path="/contactus" element={<Contact/>} />
           <Route path="/gallery" element={<Gallery/>} />
-          <Route path="/product/:productName" element={<ProductDetails />} />
+          <Route path="/product/:ProductId" element={<ProductDetails />} />
           <Route path="*" element={<NotFound/>} />  {/* Catch-all route for unknown paths */}
         </Routes>
         <Footer />

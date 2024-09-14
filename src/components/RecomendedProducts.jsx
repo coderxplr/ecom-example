@@ -33,7 +33,7 @@ const RecommendedProducts = () => {
             <div className="relative w-full">
               <img
                 className="w-full h-48 p-1 object-contain"
-                src={product.Variants[0].Colors[0].Images[0]}
+                src={product?.Variants[0]?.Colors[0]?.Images[0]}
                 alt={product.ProductName}
                 // style={{ objectFit: "cover" }}
               />
