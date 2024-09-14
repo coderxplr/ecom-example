@@ -55,9 +55,9 @@ const ProductDetails = () => {
         const phoneNumber = "+916302141511"; // Specific phone number
         const message = 
             `Hello, I'm interested in the following product:\n\n` +
-            `🛍️ *Product*: ${product.ProductName}\n` +
-            `📝 *Description*: ${product.Description}\n` +
-            `🎨 *Finish*: ${product.Finish}\n` +
+            `🛍️ *Product*: ${product?.ProductName}\n` +
+            `📝 *Description*: ${product?.Description}\n` +
+            `🎨 *Finish*: ${product?.Finish}\n` +
             `✂️ *Edge*: ${product?.Variants[0]?.Colors[0]?.Edge}\n` +
             `🌈 *Color*: ${product?.Variants[0]?.Colors[0]?.ColorName}\n` +
             `📏 *Size*: ${selectedSize.Length} x ${selectedSize.Width} x ${selectedSize.Height}\n\n` +
