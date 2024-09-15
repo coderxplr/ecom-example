@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="flex flex-col items-center bg-white p-4 sm:p-6 lg:p-8" style={{ fontFamily: 'lexand' }}>
       <div className="w-[90%] bg-white rounded-lg p-6 sm:p-8 lg:p-12 text-left">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-gold-700 mb-4">ABOUT US 😊</h1>
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-gold-700 mb-4">ABOUT US</h1>
         <p className="text-lg sm:text-xl text-black text-left mb-8 leading-relaxed">
           Welcome to Ace Natural Stones, your premier source for high-quality Tandur natural stones. With a passion for providing exceptional products and services, we aim to help our customers bring their dream projects to life.
         </p>

@@ -240,8 +240,7 @@ const Contact = () => {
             <li>Collaboration and partnership opportunities</li>
           </ul>
           <p className="text-lg sm:text-xl text-black">
-            Expect a response within 24 hours. Thank you for choosing ACE
-            NATURALSTONES!
+            Thank you for choosing ACE NATURAL STONES!
           </p>
         </div>
       </div>

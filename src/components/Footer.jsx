@@ -9,6 +9,9 @@ const Footer = () => {
           &copy; 2024 All Rights Reserved by Ace Natural Stones.
         </p>
         <div className="flex justify-center space-x-6 mb-4">
+          <a href="https://wa.me/6302141511" target="_blank" rel="noopener noreferrer" className="text-gold-700">
+            <FaWhatsapp size={24} className='text-green-600'/>
+          </a>
           <a href="https://www.instagram.com/ace_natural_stones?igsh=MWloZ200M3J4c2p0dQ==" target="_blank" rel="noopener noreferrer" className="text-gold-700">
             <FaInstagram size={24} className='text-pink-600'/>
           </a>

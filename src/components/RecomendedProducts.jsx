@@ -7,8 +7,7 @@ const RecommendedProducts = () => {
 
   const handleProductClick = (product) => {
     // Replace spaces with hyphens in product name
-    const productName = product.ProductName.replace(/\s+/g, "-");
-    navigate(`/product/${encodeURIComponent(productName)}`);
+    navigate(`/product/${encodeURIComponent(product.ProductId)}`);
   };
 
   const recommendedProducts = productsData.filter(
@@ -26,25 +25,28 @@ const RecommendedProducts = () => {
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center">
         {recommendedProducts.map((product) => (
           <div
-            key={product.ProductID}
+            key={product.ProductId}
             onClick={() => handleProductClick(product)}
-            className="cursor-pointer relative flex flex-col items-center rounded overflow-hidden shadow-lg border-2 border-gold-700 mb-4 w-full sm:w-5/6 md:w-5/6 lg:w-5/6 xl:w-5/6 transform transition-transform duration-300 hover:scale-105 hover:z-10"
+            className="cursor-pointer relative flex flex-col items-center rounded overflow-hidden shadow-lg mb-4 w-full sm:w-5/6 md:w-5/6 lg:w-5/6 xl:w-5/6 transform transition-transform duration-300 hover:scale-105 hover:z-10"
           >
             <div className="relative w-full">
+              {/* Product Image */}
               <img
-                className="w-full h-48 p-1 object-contain"
+                className="w-full h-48 object-cover"
                 src={product?.Variants[0]?.Colors[0]?.Images[0]}
                 alt={product.ProductName}
-                // style={{ objectFit: "cover" }}
               />
-            </div>
-            <div className="bg-yellow-700 w-full text-center pb-1">
-              <p
-                className={'text-sm pt-2 text-white'}
-                style={{ fontFamily: "lexand" }}
-              >
-                {product.ProductName}
-              </p>
+
+              {/* Overlay with Product Name */}
+              <div className="absolute bottom-0 left-0 right-0 m-4 bg-black bg-opacity-50 text-white py-2 text-center">
+                <p
+                  className="text-sm font-bold text-white"
+                  style={{ fontFamily: "lexand" }}
+                >
+                  {product.ProductName}
+                </p>
+                {/* <p className="text-xs"> {product.ProductCount} Products</p> Optional: Product count */}
+              </div>
             </div>
           </div>
         ))}

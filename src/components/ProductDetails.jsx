@@ -1,20 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { productsData } from '../seeders/data';
+import { motion, AnimatePresence } from 'framer-motion'; // Import Framer Motion components
 
 const ProductDetails = () => {
-    console.log("useParams(): ",useParams())
     const { ProductId } = useParams();
-    // Replace hyphens with spaces to match product names
     const product = productsData.find(p => p.ProductId === ProductId);
 
-    // Initialize state with default values
     const [selectedVariant, setSelectedVariant] = useState(null);
     const [selectedColor, setSelectedColor] = useState(null);
     const [selectedSize, setSelectedSize] = useState(null);
     const [mainImage, setMainImage] = useState('');
 
-    // Update state when product data changes
     useEffect(() => {
         if (product && product.Variants.length > 0) {
             const initialVariant = product.Variants[0];
@@ -30,12 +27,9 @@ const ProductDetails = () => {
                 setSelectedSize(initialVariant.Sizes[0]);
             }
         }
-
-        // Scroll to top when component mounts
         window.scrollTo(0, 0);
     }, [product]);
 
-    // Check if product data is available
     if (!product || !selectedVariant || !selectedColor || !selectedSize || !mainImage) {
         return <div>Loading...</div>;
     }
@@ -50,9 +44,8 @@ const ProductDetails = () => {
         setSelectedSize(size);
     };
 
-    // Function to create a WhatsApp URL with the product details and main image link
     const createWhatsAppUrl = () => {
-        const phoneNumber = "+916302141511"; // Specific phone number
+        const phoneNumber = "+916302141511"; 
         const message = 
             `Hello, I'm interested in the following product:\n\n` +
             `🛍️ *Product*: ${product?.ProductName}\n` +
@@ -60,23 +53,37 @@ const ProductDetails = () => {
             `🎨 *Finish*: ${product?.Finish}\n` +
             `✂️ *Edge*: ${product?.Variants[0]?.Colors[0]?.Edge}\n` +
             `🌈 *Color*: ${product?.Variants[0]?.Colors[0]?.ColorName}\n` +
-            `📏 *Size*:  ${selectedSize.Length} x ${selectedSize.Width},  Thikness : ${selectedSize.Thickness}\n\n` +
+            `📏 *Size*:  ${selectedSize.Length} x ${selectedSize.Width},  Thickness : ${selectedSize.Thickness}\n\n` +
             `🖼️ *Image*: ${mainImage}\n\n` +
             `Could you please provide more details and availability? Thank you!`;
     
         return `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
     };
-    
+
+    // Framer Motion variants for sliding effect
+    const slideVariant = {
+        hidden: { opacity: 0, x: 300 },
+        visible: { opacity: 1, x: 0 },
+        exit: { opacity: 0, x: -300 }
+    };
 
     return (
         <div className="container mx-auto p-4 flex flex-col lg:flex-row" style={{ fontFamily: 'lexand' }}>
-            <div className="flex-1 flex flex-col items-center ">
-                <img
-                    src={mainImage}
-                    alt={product.ProductName}
-                    className="w-full h-96 p-1 object-contain border"
-                    // style={{ objectFit: "cover" }}
-                />
+            <div className="flex-1 flex flex-col items-center">
+                {/* AnimatePresence with mode="wait" */}
+                <AnimatePresence mode="wait">
+                    <motion.img
+                        key={mainImage}  // This key is crucial for triggering the animation when the image changes
+                        src={mainImage}
+                        alt={product.ProductName}
+                        className="w-full h-96 p-1 object-contain border"
+                        variants={slideVariant}
+                        initial="hidden"
+                        animate="visible"
+                        exit="exit"
+                        transition={{ duration: 0.5 }}
+                    />
+                </AnimatePresence>
                 <div className="flex justify-center mt-4 flex-wrap">
                     {selectedColor.Images.map((image, index) => (
                         <img
@@ -93,16 +100,15 @@ const ProductDetails = () => {
                 <h1 className="text-3xl font-semibold">{product.ProductName}</h1>
                 <p className="text-lg mt-2">{product.Description}</p>
                 <div className="mt-4">
-                    {/* <span className="text-xl font-semibold">Category: </span><span>{product.Category}</span>
-                    <br/> */}
                     <span className="text-xl font-semibold">Finish: </span><span>{product?.Variants[0]?.Finish}</span>
-                    <br/>
-                    {product?.Variants[0]?.Colors[0]?.Edge && (<span>
-                        <span className="text-xl font-semibold">Edge: </span>
-                        <span>{product?.Variants[0]?.Colors[0]?.Edge}</span>
-                      </span>
+                    <br />
+                    {product?.Variants[0]?.Colors[0]?.Edge && (
+                        <span>
+                            <span className="text-xl font-semibold">Edge: </span>
+                            <span>{product?.Variants[0]?.Colors[0]?.Edge}</span>
+                        </span>
                     )}
-                    <br/>
+                    <br />
                     <span className="text-xl font-semibold">Colors: </span><span>{product?.Variants[0]?.Colors[0]?.ColorName}</span>
                     <div className="mt-4">
                         <label className="block text-lg font-semibold">Size</label>

@@ -43,6 +43,7 @@ const Header = () => {
             dropdown: true, // Marking that this has a dropdown
         },
         { label: 'Gallery', href: '/gallery' },
+        { label: 'Our Work', href: '/ourwork' },
         { label: 'Contact Us', href: '/contactus' },
     ];
 

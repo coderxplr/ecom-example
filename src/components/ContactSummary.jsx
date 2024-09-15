@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaPhoneAlt, FaWhatsapp, FaMapMarkerAlt, FaEnvelope, FaInstagram, FaFacebook, FaYoutube } from 'react-icons/fa';
-import { Link } from "react-router-dom"; // Make sure to install react-router-dom
+// import { Link } from "react-router-dom"; // Make sure to install react-router-dom
 
 const ContactSummary = () => {
   return (
@@ -8,7 +8,7 @@ const ContactSummary = () => {
         <div className="w-[90%] bg-white rounded-lg p-6 sm:p-8 lg:p-12 text-left">
 
       {/* Connect with Us */}
-      <h1 className="text-2xl sm:text-xl lg:text-2xl font-bold text-center pb-4">CONTACT US 🤗</h1>
+      <h1 className="text-2xl sm:text-xl lg:text-2xl font-bold text-center pb-4">CONTACT US</h1>
       <div className="mb-8">
         <h2 className="text-2xl sm:text-xl font-semibold text-gold-700 mb-4">
           Connect with Us
@@ -119,18 +119,17 @@ const ContactSummary = () => {
           <li>Collaboration and partnership opportunities</li>
         </ul>
         <p className="text-lg sm:text-xl text-black">
-          Expect a response within 24 hours. Thank you for choosing ACE
-          NATURALSTONES!
+          Thank you for choosing ACE NATURAL STONES!
         </p>
       </div>
 
       {/* Link to Full Contact Page */}
-      <Link
+      {/* <Link
         to="/contactus"
         className="text-lg sm:text-xl text-blue-600 hover:underline font-semibold"
       >
         Click here to know more.....
-      </Link>
+      </Link> */}
         </div>
     </div>
   );

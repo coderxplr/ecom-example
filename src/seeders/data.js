@@ -77,7 +77,7 @@ const productsData = [
     Description:
       " The Green Leather Polish finish offers a captivating blend of refreshing green shades with a subtly textured surface. This finish highlights the natural stone’s rough texture, creating a matte look that emulates the feel of leather. Available in various green tones, it introduces a lively yet sophisticated touch to any space.",
     ProductName: "Green Leather Polish",
-    IsRecommended: true,
+    
   },
   {
     Type: "Natural",
@@ -206,6 +206,7 @@ const productsData = [
     Description:
       "The Yellow Leather Polish combines subtle texture with practical durability. Created through a process that enhances the stone's natural rough surface, this finish results in a matte, slightly textured appearance that mimics the feel of leather and gives a RICH GOLDEN FINISH \n\n",
     ProductName: "Yellow Leather Polish",
+    IsRecommended: true,
   },
   {
     Type: "Natural",
@@ -451,7 +452,7 @@ const productsData = [
     Description:
       "Side piece is designed for both residential and commercial use, including shops, railways, and other high-traffic areas. Slightly thicker than the centerpiece, it offers enhanced durability. One face is polished to a smooth finish, while the other side remains natural. \n\n \n\nMachine-cut with precise 90-degree angles, this natural stone is easy to install without the need for hand-cutting. Its slip-resistant surface and robust construction make it a reliable choice for various applications. Available in different sizes, it provides both practicality and longevity.",
     ProductName: " Side Piece – Slice Polish",
-    IsRecommended: true,
+    
   },
   {
     Type: "Natural",
@@ -491,7 +492,7 @@ const productsData = [
     Description:
       "The Brown Leather Polish finish features a unique blend of rich brown hues and subtle texture, adding a sophisticated yet natural touch to any space. Available in a range of brown shades, this finish enhances the stone's visual appeal with warm, earthy tones. The Tandur Leather Polish is achieved through a process that highlights the stone's natural rough surface, creating a matte, slightly textured look that resembles leather.",
     ProductName: "Brown Leather Polish",
-    IsRecommended: true,
+    
   },
   {
     Type: "Natural",
@@ -682,7 +683,7 @@ const productsData = [
   //   Description:
   //     "- Recommended for heavy vehicular traffic and large parking areas \n- Can withstand significant wear and tear \n- Ideal for commercial parking lots, highways, and heavy-duty applications \n- Offers superior durability and strength \n- Thickness tolerance: 35-40mm (natural stone variability) \nPlease note that the thickness tolerances are due to the natural variability of the stone, and the actual thickness may vary slightly depending on the specific pieces.",
   //   ProductName: "40mm",
-  //   IsRecommended: true,
+  //   
   // },
   // {
   //   Type: "Natural",
@@ -1102,6 +1103,7 @@ const productsData = [
     Description:
       "The Diamond-Cut Stone brings a touch of radiant elegance to your garden. With its faceted surfaces, this stone reflects light beautifully, creating a sparkling effect that enhances outdoor spaces. Adds a bright and cheerful atmosphere, making it perfect for garden pathways, borders, and decorative features. Durable and eye-catching, Diamond-Cut Yellow Stone is an excellent choice for adding both style and functionality to your garden",
     ProductName: "Diamond-Cut Finish",
+    IsRecommended: true,
   },
   {
     Type: "Natural",
@@ -1190,6 +1192,7 @@ const productsData = [
     Description:
       "Grey Cobble Handcut Stone is a robust and visually appealing option, featuring a natural grey tone that complements a variety of outdoor settings. Carefully crafted through hand cutting, this cobble stone has a textured surface and irregular edges, adding a touch of authenticity and rustic charm. It is ideal for use in pathways, driveways, patios, and landscaping, offering both durability and aesthetic appeal. The grey hue provides a versatile and classic look, making it suitable for creating elegant and lasting outdoor surfaces.",
     ProductName: "Grey Cobble",
+    IsRecommended: true,
   },
   {
     Type: "Natural",
@@ -1622,7 +1625,8 @@ const productsData = [
     CategoryID: "cat_17253559734044558",
     Description:
       "- Recommended for heavy vehicular traffic and large parking areas \n\n- Can withstand significant wear and tear \n\n- Ideal for commercial parking lots, highways, and heavy-duty applications \n\n- Offers superior durability and strength \n\n- Thickness tolerance: 35-40mm (natural stone variability) \n\nPlease note that the thickness tolerances are due to the natural variability of the stone, and the actual thickness may vary slightly depending on the specific pieces.",
-    ProductName: " 40mm",
+    ProductName: "40mm",
+    IsRecommended: true,
   },
   {
     Type: "Natural",
@@ -2145,13 +2149,13 @@ const productsData = [
   {
     ProductId: "prod_1726208155116971",
     ProductName: "Natural Steps",
+    IsRecommended: true,
     Type: "Natural",
     Material: "Tandur Stone",
     Description:
       "The Natural Steps offer a rugged, textured finish that highlights the stone's inherent beauty. Designed with built-in grip lines for enhanced safety, each step features a molding near the corner for a refined edge. Available in various sizes, these steps combine durability with a distinctive, natural look, making them ideal for both residential and commercial staircases.",
     Category: "Steps",
     CategoryID: "cat_17253560197007068",
-    IsRecommended: false,
     Variants: [
       {
         VariantID: "001A",
@@ -2304,6 +2308,7 @@ const productsData = [
       "A top-quality polished stone, offering a smoother and more refined finish than most other high-polish stones. It's precisely machine-cut with perfect 90-degree angles, So it fits together easily during installation—no extra cutting needed. \n\nThis stone is durable and slip-resistant, making it a great choice for indoor spaces in your home. Plus, it's available in different sizes to suit your needs. With its long-lasting quality and easy installation, this Tandur stone centerpiece is a stylish and practical addition to any room.",
     ProductName: "Center Piece – Slice Polish",
     IsRecommended: true,
+    
   },
   // wall cladding
   {
@@ -2451,6 +2456,7 @@ const productsData = [
       {
         VariantID: "001A",
         Finish: "Natural",
+        IsRecommended: true,
         Colors: [
           {
             ColorName: "Brown",
@@ -2573,7 +2579,7 @@ const productsData = [
       "The Brown Satin Finish Stone offers a rich, earthy tone that enhances any interior space with its understated elegance. This finish, which falls between polished and mirror, provides a subtle sheen that reflects light softly, avoiding the intense shine of a full gloss. Machine-cut for precision and available in various sizes, this premium stone is both versatile and durable. The brown satin finish adds a warm, sophisticated touch, making it an ideal choice for those seeking a balanced, refined look in their interior design.",
     Category: "Satin Finish",
     CategoryID: "cat_17253562110392769",
-    IsRecommended: false,
+    IsRecommended: true,
     Variants: [
       {
         VariantID: "001A",
@@ -2654,7 +2660,7 @@ const productsData = [
     Description:
       "Roof Slabs are durable and versatile natural stone slabs, ideal for house slabs. Available in various thicknesses, these slabs offer flexibility to meet different structural needs. Their substantial size ensures easy installation, making them a reliable choice for creating strong and long-lasting surfaces. Perfect for residential applications, these slabs provide a solid foundation with the added benefit of customizable thickness to suit specific project requirements.",
     Category: "Outdoor",
-    IsRecommended: true,
+    
     ProductName: "Roof Slabs",
   },
   {
@@ -2701,8 +2707,8 @@ const productsData = [
     Description:
       "2×1 Wall Stone is a highly durable and strong natural stone, perfect for constructing boundary walls, house walls, and basement walls. Its substantial 2×1 feet size not only provides exceptional strength but also makes it easy to construct with, allowing for faster work completion. Ideal for residential and commercial projects, this wall stone offers a reliable, aesthetically pleasing, and efficient solution for creating sturdy and enduring structures.",
     Category: "Outdoor",
-    IsRecommended: true,
     ProductName: "2×1 Wall Stone",
+    IsRecommended: true,
   },
 ];
 
@@ -2849,4 +2855,33 @@ const gallaryImages = [
   "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336802849_IMG-20240711-WA0063.jpg",
 ];
 
-export { productsData, categoriesData, gallaryImages };
+const workImages = [
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989785_IMG-20240704-WA0138.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989790_IMG-20240704-WA0141.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989938_IMG-20240711-WA0044.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989951_IMG-20240711-WA0045.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989962_IMG-20240711-WA0048.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989970_IMG-20240711-WA0049.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989983_IMG-20240711-WA0058.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989997_IMG-20240711-WA0065.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990007_IMG-20240723-WA0041.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990019_IMG-20240723-WA0044.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990031_IMG-20240723-WA0045.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990044_IMG-20240723-WA0046.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990055_IMG-20240723-WA0048.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990065_IMG-20240723-WA0049.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990076_IMG-20240723-WA0050.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990092_IMG-20240723-WA0051.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990103_IMG-20240711-WA0040.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990116_IMG-20240711-WA0050.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990129_IMG-20240711-WA0051.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990142_IMG-20240711-WA0053.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990150_IMG-20240711-WA0067.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990151_IMG-20240711-WA0071.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990165_IMG-20240723-WA0042.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990178_IMG-20240723-WA0043.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990192_IMG-20240723-WA0047.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400990201_IMG-20240723-WA0052.jpg"
+];
+
+export { productsData, categoriesData, gallaryImages, workImages };
