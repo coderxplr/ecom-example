@@ -54,7 +54,7 @@ const Products = () => {
                 // style={{ objectFit: "cover" }}
               />
             </div>
-            <div className="bg-yellow-700 w-full text-center">
+            <div className="bg-yellow-700 w-full h-full text-center">
                 <p className="text-sm pt-2 text-white" style={{ fontFamily: 'lexand' }}>{product.ProductName}</p>
             </div>
               {/* <p className="mt-4 text-center text-xl font-semibold bg-yellow-700 text-white p-2">{product.ProductName}</p> */}

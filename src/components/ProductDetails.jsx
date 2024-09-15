@@ -60,15 +60,12 @@ const ProductDetails = () => {
             `🎨 *Finish*: ${product?.Finish}\n` +
             `✂️ *Edge*: ${product?.Variants[0]?.Colors[0]?.Edge}\n` +
             `🌈 *Color*: ${product?.Variants[0]?.Colors[0]?.ColorName}\n` +
-            `📏 *Size*: ${selectedSize.Length} x ${selectedSize.Width} x ${selectedSize.Height}\n\n` +
+            `📏 *Size*:  ${selectedSize.Length} x ${selectedSize.Width},  Thikness : ${selectedSize.Thickness}\n\n` +
             `🖼️ *Image*: ${mainImage}\n\n` +
             `Could you please provide more details and availability? Thank you!`;
     
         return `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
     };
-    
-
-    console.log("product: ",product);
     
 
     return (
@@ -115,8 +112,8 @@ const ProductDetails = () => {
                             onChange={(e) => handleSizeChange(JSON.parse(e.target.value))}
                         >
                             {selectedVariant.Sizes.map(size => (
-                                <option key={size.Length + size.Width + size.Height} value={JSON.stringify(size)}>
-                                    {`${size.Length} x ${size.Width}`}
+                                <option key={size.Length + size.Width + size.Thickness} value={JSON.stringify(size)}>
+                                    {`${size?.Length} x ${size?.Width},  Thikness: ${size?.Thickness}`}
                                 </option>
                             ))}
                         </select>
