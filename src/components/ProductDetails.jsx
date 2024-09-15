@@ -95,7 +95,7 @@ const ProductDetails = () => {
                 <div className="mt-4">
                     {/* <span className="text-xl font-semibold">Category: </span><span>{product.Category}</span>
                     <br/> */}
-                    <span className="text-xl font-semibold">Finish: </span><span>{product.Variants[0].Finish}</span>
+                    <span className="text-xl font-semibold">Finish: </span><span>{product?.Variants[0]?.Finish}</span>
                     <br/>
                     {product?.Variants[0]?.Colors[0]?.Edge && (<span>
                         <span className="text-xl font-semibold">Edge: </span>
@@ -113,7 +113,7 @@ const ProductDetails = () => {
                         >
                             {selectedVariant.Sizes.map(size => (
                                 <option key={size.Length + size.Width + size.Thickness} value={JSON.stringify(size)}>
-                                    {`${size?.Length} x ${size?.Width},  Thikness: ${size?.Thickness}`}
+                                    {`${size?.Length} x ${size?.Width},  Thickness: ${size?.Thickness}`}
                                 </option>
                             ))}
                         </select>

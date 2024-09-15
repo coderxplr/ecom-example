@@ -291,108 +291,108 @@ const productsData = [
       "The Green Cobble is an excellent choice for adding a touch of natural elegance to your outdoor spaces. These cobblestones come in a refreshing green shade that brings a vibrant and earthy feel to any area. They are perfect for paving driveways, pathways, and landscaping projects. \n\nAvailable in various sizes, Green Tandur Cobbles are known for their durability and resistance to wear, making them suitable for both high-traffic and decorative applications. The natural stone composition ensures longevity and resilience against the elements, while the unique green hue enhances the visual appeal of residential and commercial spaces alike. \n\nIdeal for creating stylish walkways or standout driveways, Green Tandur Cobbles offer both functionality and aesthetic charm, making them a versatile and attractive option for your outdoor design needs.",
     ProductName: "Green Cobble",
   },
-  {
-    Type: "Natural",
-    Material: "Tandur Stone",
-    Variants: [
-      {
-        Sizes: [
-          {
-            Width: "23 inches",
-            Length: "23 inches",
-            Thickness: "25mm - 30mm",
-          },
-          {
-            Width: "23 inches",
-            Length: "17 inches",
-            Thickness: "25mm - 30mm",
-          },
-          {
-            Width: "11 inches",
-            Length: "23 inches",
-            Thickness: "25mm to 30mm",
-          },
-          {
-            Width: "11 inches",
-            Length: "11 inches",
-            Thickness: "25mm to 30mm",
-          },
-        ],
-        Colors: [
-          {
-            Edge: "Machine Cutting",
-            Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996962_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_224354_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996925_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_143606_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996928_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_144205_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996964_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_224509_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996976_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_205934_0000.png",
-            ],
-            ColorName: "Grey",
-          },
-        ],
-        Finish: "Natural",
-        VariantID: "001A",
-      },
-    ],
-    ProductID: "prod_17254600751257277",
-    ProductId: "prod_10626234359637010",
-    CategoryID: "cat_17253559734044558",
-    Description:
-      "- Suitable for regular vehicular traffic and parking lots \n\n- Can withstand moderate wear and tear \n\n- Ideal for driveways, parking spaces, and garage floors \n\n- Offers a good balance between durability and affordability \n\n- Thickness tolerance: 25-30mm (natural stone variability) \nPlease note that the thickness tolerances are due to the natural variability of the stone, and the actual thickness may vary slightly depending on the specific pieces.",
-    ProductName: "30mm",
-  },
-  {
-    Type: "Natural",
-    Material: "Tandur Stone",
-    Variants: [
-      {
-        Sizes: [
-          {
-            Width: "23 inches",
-            Length: "23 inches",
-            Thickness: "25mm - 30mm",
-          },
-          {
-            Width: "23 inches",
-            Length: "17 inches",
-            Thickness: " 25mm - 30mm",
-          },
-          {
-            Width: "11 inches",
-            Length: "23 inches",
-            Thickness: "25mm - 30mm",
-          },
-          {
-            Width: " 11 inches",
-            Length: " 11 inches",
-            Thickness: "25mm - 30mm",
-          },
-        ],
-        Colors: [
-          {
-            Edge: "Machine Cutting",
-            Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111659_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154125_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111638_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_153513_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111665_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154151_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111689_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154423_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111711_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154457_0000.png",
-            ],
-            ColorName: "Brown",
-          },
-        ],
-        Finish: "Polished",
-        VariantID: "001A",
-      },
-    ],
-    ProductID: "prod_17253938536433991",
-    ProductId: "prod_41919509129797448",
-    CategoryID: "cat_17253559205241743",
-    Description:
-      "Elevate the look of any space with the Brown High-Polish Stone, a refined choice for both high-end commercial environments and sophisticated homes. Its glossy, high-polish surface provides a smooth, reflective finish that brings a touch of elegance and warmth to interiors. The deep brown color adds a sense of richness and complements a range of design themes. \n\nBuilt to withstand heavy use while maintaining its attractive appearance, this stone is durable and features a non-slip surface for added safety. Offered in various sizes, the Brown High-Polish Stone blends durability with a luxurious look, making it ideal for creating stunning floors in premium settings.",
-    ProductName: "Brown High Polish",
-  },
+  // {
+  //   Type: "Natural",
+  //   Material: "Tandur Stone",
+  //   Variants: [
+  //     {
+  //       Sizes: [
+  //         {
+  //           Width: "23 inches",
+  //           Length: "23 inches",
+  //           Thickness: "25mm - 30mm",
+  //         },
+  //         {
+  //           Width: "23 inches",
+  //           Length: "17 inches",
+  //           Thickness: "25mm - 30mm",
+  //         },
+  //         {
+  //           Width: "11 inches",
+  //           Length: "23 inches",
+  //           Thickness: "25mm to 30mm",
+  //         },
+  //         {
+  //           Width: "11 inches",
+  //           Length: "11 inches",
+  //           Thickness: "25mm to 30mm",
+  //         },
+  //       ],
+  //       Colors: [
+  //         {
+  //           Edge: "Machine Cutting",
+  //           Images: [
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996962_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_224354_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996925_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_143606_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996928_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_144205_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996964_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_224509_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996976_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_205934_0000.png",
+  //           ],
+  //           ColorName: "Grey",
+  //         },
+  //       ],
+  //       Finish: "Natural",
+  //       VariantID: "001A",
+  //     },
+  //   ],
+  //   ProductID: "prod_17254600751257277",
+  //   ProductId: "prod_10626234359637010",
+  //   CategoryID: "cat_17253559734044558",
+  //   Description:
+  //     "- Suitable for regular vehicular traffic and parking lots \n\n- Can withstand moderate wear and tear \n\n- Ideal for driveways, parking spaces, and garage floors \n\n- Offers a good balance between durability and affordability \n\n- Thickness tolerance: 25-30mm (natural stone variability) \nPlease note that the thickness tolerances are due to the natural variability of the stone, and the actual thickness may vary slightly depending on the specific pieces.",
+  //   ProductName: "30mm",
+  // },
+  // {
+  //   Type: "Natural",
+  //   Material: "Tandur Stone",
+  //   Variants: [
+  //     {
+  //       Sizes: [
+  //         {
+  //           Width: "23 inches",
+  //           Length: "23 inches",
+  //           Thickness: "25mm - 30mm",
+  //         },
+  //         {
+  //           Width: "23 inches",
+  //           Length: "17 inches",
+  //           Thickness: " 25mm - 30mm",
+  //         },
+  //         {
+  //           Width: "11 inches",
+  //           Length: "23 inches",
+  //           Thickness: "25mm - 30mm",
+  //         },
+  //         {
+  //           Width: " 11 inches",
+  //           Length: " 11 inches",
+  //           Thickness: "25mm - 30mm",
+  //         },
+  //       ],
+  //       Colors: [
+  //         {
+  //           Edge: "Machine Cutting",
+  //           Images: [
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111659_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154125_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111638_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_153513_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111665_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154151_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111689_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154423_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111711_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154457_0000.png",
+  //           ],
+  //           ColorName: "Brown",
+  //         },
+  //       ],
+  //       Finish: "Polished",
+  //       VariantID: "001A",
+  //     },
+  //   ],
+  //   ProductID: "prod_17253938536433991",
+  //   ProductId: "prod_41919509129797448",
+  //   CategoryID: "cat_17253559205241743",
+  //   Description:
+  //     "Elevate the look of any space with the Brown High-Polish Stone, a refined choice for both high-end commercial environments and sophisticated homes. Its glossy, high-polish surface provides a smooth, reflective finish that brings a touch of elegance and warmth to interiors. The deep brown color adds a sense of richness and complements a range of design themes. \n\nBuilt to withstand heavy use while maintaining its attractive appearance, this stone is durable and features a non-slip surface for added safety. Offered in various sizes, the Brown High-Polish Stone blends durability with a luxurious look, making it ideal for creating stunning floors in premium settings.",
+  //   ProductName: "Brown High Polish",
+  // },
   {
     Type: "Natural",
     Material: "Tandur Stone",
@@ -582,209 +582,209 @@ const productsData = [
       "Yellow Cobble Handcut Stone is a naturally durable stone with a rustic and textured finish, achieved through skilled hand cutting. This cobble stone is available in a warm yellow hue, adding a charming and traditional look to outdoor spaces. Ideal for pathways, driveways, patios, and landscaping projects, it offers both aesthetic appeal and functionality. The handcut edges enhance its natural beauty, making it a perfect choice for creating timeless and enduring surfaces.",
     ProductName: "Yellow Cobble Handcut Stone",
   },
-  {
-    Type: "Natural",
-    Material: "Tandur Stone",
-    Variants: [
-      {
-        Sizes: [
-          {
-            Width: "23 inches",
-            Length: "23 inches",
-            Thickness: "15mm to 20mm",
-          },
-          {
-            Width: "23 inches",
-            Length: "17 inches",
-            Thickness: "15mm to 20mm",
-          },
-          {
-            Width: "11 inches",
-            Length: "23 inches",
-            Thickness: "15mm to 20mm",
-          },
-          {
-            Width: "11 inches",
-            Length: "11 inches",
-            Thickness: "15mm to 20mm",
-          },
-        ],
-        Colors: [
-          {
-            Edge: "Machine Cutting",
-            ColorName: "Grey",
-            Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478502_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205112_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478480_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_204425_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478507_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205250_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478539_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205405_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478559_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205444_0000.png",
-            ],
-          },
-        ],
-        Finish: "Natural",
-        VariantID: "001A",
-      },
-    ],
-    ProductId: "prod_36235431232331840",
-    CategoryID: "cat_17253559734044558",
-    Description:
-      "- Ideal for pedestrian pathways and light vehicular traffic \n\n- Suitable for parking lots with occasional car movement \n\n- Easy to install and maintain \n\n- Cost-effective option \n\n- Thickness tolerance: 15-20mm (natural stone variability) \nPlease note that the thickness tolerances are due to the natural variability of the stone, and the actual thickness may vary slightly depending on the specific pieces.",
-    ProductName: "20mm",
-  },
-  {
-    Type: "Natural",
-    Material: "Tandur Stone",
-    Variants: [
-      {
-        Sizes: [
-          {
-            Width: "23 inches",
-            Length: "23 inches",
-            Thickness: "35mm to 40mm",
-          },
-          {
-            Width: "23 inches",
-            Length: "17 inches",
-            Thickness: "35mm to 40mm",
-          },
-          {
-            Width: "11 inches",
-            Length: "23 inches",
-            Thickness: "35mm - 40mm",
-          },
-          {
-            Width: "11 inches",
-            Length: "11 inches",
-            Thickness: "45mm to 50mm",
-          },
-        ],
-        Colors: [
-          {
-            Edge: "Machine Cutting",
-            Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644673_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205112_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644659_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_204543_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644676_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205250_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644691_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205405_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644706_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205444_0000.png",
-            ],
-            ColorName: "Grey",
-          },
-        ],
-        Finish: "Natural",
-        VariantID: "001A",
-      },
-    ],
-    ProductID: "prod_17253951927281201",
-    ProductId: "prod_88345754120574288",
-    CategoryID: "cat_17253559734044558",
-    Description:
-      "- Recommended for heavy vehicular traffic and large parking areas \n- Can withstand significant wear and tear \n- Ideal for commercial parking lots, highways, and heavy-duty applications \n- Offers superior durability and strength \n- Thickness tolerance: 35-40mm (natural stone variability) \nPlease note that the thickness tolerances are due to the natural variability of the stone, and the actual thickness may vary slightly depending on the specific pieces.",
-    ProductName: "40mm",
-    IsRecommended: true,
-  },
-  {
-    Type: "Natural",
-    Material: "Tandur Stone",
-    Variants: [
-      {
-        Sizes: [
-          {
-            Width: "23 inches",
-            Length: "23 inches",
-            Thickness: "25mm - 30mm",
-          },
-          {
-            Width: "23 inches",
-            Length: "17 inches",
-            Thickness: "25mm - 30mm",
-          },
-          {
-            Width: "11 inches",
-            Length: "23 inches",
-            Thickness: "25mm - 30mm",
-          },
-          {
-            Width: "11 inches",
-            Length: "11 inches",
-            Thickness: "25mm - 30mm",
-          },
-        ],
-        Colors: [
-          {
-            Edge: "Machine Cutting",
-            ColorName: "Yellow",
-            Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405021_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160526_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405042_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160609_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405044_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_205644_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405060_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160259_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405074_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160639_0000.png",
-            ],
-          },
-        ],
-        Finish: "Polished",
-        VariantID: "001A",
-      },
-    ],
-    ProductId: "prod_86318441941938368",
-    CategoryID: "cat_17253559205241743",
-    Description:
-      "The Yellow High-Polish Stone provides a luxurious flooring option for both commercial buildings and homes. Its high-polish finish delivers a bright, reflective surface that enhances the elegance of high-end interiors. The vibrant yellow color adds warmth and sophistication to any space. \n\nDesigned for durability and ease of maintenance, this stone is suitable for high-traffic areas and offers non-slip properties for safety. Available in various sizes, the Yellow High-Polish Stone combines functionality with a stylish look, making it an excellent choice for premium residential and commercial environments.",
-    ProductName: "Yellow High Polish",
-  },
-  {
-    Type: "Natural",
-    Material: "Tandur Stone",
-    Variants: [
-      {
-        Sizes: [
-          {
-            Width: "23 inches",
-            Length: "23 inches",
-            Thickness: "18mm - 22mm",
-          },
-          {
-            Width: "23 inches",
-            Length: "23 Inches",
-            Thickness: " 25mm - 30mm",
-          },
-          {
-            Width: " 17 inches",
-            Length: " 17 inches",
-            Thickness: "18mm - 22mm",
-          },
-          {
-            Width: "17 inches",
-            Length: " 17 inches",
-            Thickness: "25mm to 30mm",
-          },
-        ],
-        Colors: [
-          {
-            Edge: "",
-            ColorName: "",
-            Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312627964_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_141122_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312627990_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_141440_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312627994_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_142028_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312628010_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_142439_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312628022_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_142747_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312628041_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_144615_0000.png",
-            ],
-          },
-        ],
-        Finish: "Natural ,Leather",
-        VariantID: "001A",
-      },
-    ],
-    ProductId: "prod_44476046577378648",
-    CategoryID: "cat_17255138342343018",
-    Description:
-      "The Square Pattern Stone features a distinctive square design that adds a modern and organized look to outdoor areas. Ideal for applications such as parking lots and garden pathways, this stone combines both functionality and aesthetic appeal. \n\nAvailable in a range of colors and sizes, the Square Pattern Stone is designed for durability and performance in various outdoor settings. Its robust construction ensures it can withstand the elements, making it a reliable choice for enhancing any exterior space",
-    ProductName: "Square Pattern",
-  },
+  // {
+  //   Type: "Natural",
+  //   Material: "Tandur Stone",
+  //   Variants: [
+  //     {
+  //       Sizes: [
+  //         {
+  //           Width: "23 inches",
+  //           Length: "23 inches",
+  //           Thickness: "15mm to 20mm",
+  //         },
+  //         {
+  //           Width: "23 inches",
+  //           Length: "17 inches",
+  //           Thickness: "15mm to 20mm",
+  //         },
+  //         {
+  //           Width: "11 inches",
+  //           Length: "23 inches",
+  //           Thickness: "15mm to 20mm",
+  //         },
+  //         {
+  //           Width: "11 inches",
+  //           Length: "11 inches",
+  //           Thickness: "15mm to 20mm",
+  //         },
+  //       ],
+  //       Colors: [
+  //         {
+  //           Edge: "Machine Cutting",
+  //           ColorName: "Grey",
+  //           Images: [
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478502_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205112_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478480_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_204425_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478507_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205250_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478539_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205405_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478559_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205444_0000.png",
+  //           ],
+  //         },
+  //       ],
+  //       Finish: "Natural",
+  //       VariantID: "001A",
+  //     },
+  //   ],
+  //   ProductId: "prod_36235431232331840",
+  //   CategoryID: "cat_17253559734044558",
+  //   Description:
+  //     "- Ideal for pedestrian pathways and light vehicular traffic \n\n- Suitable for parking lots with occasional car movement \n\n- Easy to install and maintain \n\n- Cost-effective option \n\n- Thickness tolerance: 15-20mm (natural stone variability) \nPlease note that the thickness tolerances are due to the natural variability of the stone, and the actual thickness may vary slightly depending on the specific pieces.",
+  //   ProductName: "20mm",
+  // },
+  // {
+  //   Type: "Natural",
+  //   Material: "Tandur Stone",
+  //   Variants: [
+  //     {
+  //       Sizes: [
+  //         {
+  //           Width: "23 inches",
+  //           Length: "23 inches",
+  //           Thickness: "35mm to 40mm",
+  //         },
+  //         {
+  //           Width: "23 inches",
+  //           Length: "17 inches",
+  //           Thickness: "35mm to 40mm",
+  //         },
+  //         {
+  //           Width: "11 inches",
+  //           Length: "23 inches",
+  //           Thickness: "35mm - 40mm",
+  //         },
+  //         {
+  //           Width: "11 inches",
+  //           Length: "11 inches",
+  //           Thickness: "45mm to 50mm",
+  //         },
+  //       ],
+  //       Colors: [
+  //         {
+  //           Edge: "Machine Cutting",
+  //           Images: [
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644673_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205112_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644659_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_204543_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644676_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205250_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644691_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205405_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644706_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205444_0000.png",
+  //           ],
+  //           ColorName: "Grey",
+  //         },
+  //       ],
+  //       Finish: "Natural",
+  //       VariantID: "001A",
+  //     },
+  //   ],
+  //   ProductID: "prod_17253951927281201",
+  //   ProductId: "prod_88345754120574288",
+  //   CategoryID: "cat_17253559734044558",
+  //   Description:
+  //     "- Recommended for heavy vehicular traffic and large parking areas \n- Can withstand significant wear and tear \n- Ideal for commercial parking lots, highways, and heavy-duty applications \n- Offers superior durability and strength \n- Thickness tolerance: 35-40mm (natural stone variability) \nPlease note that the thickness tolerances are due to the natural variability of the stone, and the actual thickness may vary slightly depending on the specific pieces.",
+  //   ProductName: "40mm",
+  //   IsRecommended: true,
+  // },
+  // {
+  //   Type: "Natural",
+  //   Material: "Tandur Stone",
+  //   Variants: [
+  //     {
+  //       Sizes: [
+  //         {
+  //           Width: "23 inches",
+  //           Length: "23 inches",
+  //           Thickness: "25mm - 30mm",
+  //         },
+  //         {
+  //           Width: "23 inches",
+  //           Length: "17 inches",
+  //           Thickness: "25mm - 30mm",
+  //         },
+  //         {
+  //           Width: "11 inches",
+  //           Length: "23 inches",
+  //           Thickness: "25mm - 30mm",
+  //         },
+  //         {
+  //           Width: "11 inches",
+  //           Length: "11 inches",
+  //           Thickness: "25mm - 30mm",
+  //         },
+  //       ],
+  //       Colors: [
+  //         {
+  //           Edge: "Machine Cutting",
+  //           ColorName: "Yellow",
+  //           Images: [
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405021_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160526_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405042_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160609_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405044_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_205644_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405060_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160259_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405074_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160639_0000.png",
+  //           ],
+  //         },
+  //       ],
+  //       Finish: "Polished",
+  //       VariantID: "001A",
+  //     },
+  //   ],
+  //   ProductId: "prod_86318441941938368",
+  //   CategoryID: "cat_17253559205241743",
+  //   Description:
+  //     "The Yellow High-Polish Stone provides a luxurious flooring option for both commercial buildings and homes. Its high-polish finish delivers a bright, reflective surface that enhances the elegance of high-end interiors. The vibrant yellow color adds warmth and sophistication to any space. \n\nDesigned for durability and ease of maintenance, this stone is suitable for high-traffic areas and offers non-slip properties for safety. Available in various sizes, the Yellow High-Polish Stone combines functionality with a stylish look, making it an excellent choice for premium residential and commercial environments.",
+  //   ProductName: "Yellow High Polish",
+  // },
+  // {
+  //   Type: "Natural",
+  //   Material: "Tandur Stone",
+  //   Variants: [
+  //     {
+  //       Sizes: [
+  //         {
+  //           Width: "23 inches",
+  //           Length: "23 inches",
+  //           Thickness: "18mm - 22mm",
+  //         },
+  //         {
+  //           Width: "23 inches",
+  //           Length: "23 Inches",
+  //           Thickness: " 25mm - 30mm",
+  //         },
+  //         {
+  //           Width: " 17 inches",
+  //           Length: " 17 inches",
+  //           Thickness: "18mm - 22mm",
+  //         },
+  //         {
+  //           Width: "17 inches",
+  //           Length: " 17 inches",
+  //           Thickness: "25mm to 30mm",
+  //         },
+  //       ],
+  //       Colors: [
+  //         {
+  //           Edge: "",
+  //           ColorName: "",
+  //           Images: [
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312627964_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_141122_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312627990_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_141440_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312627994_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_142028_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312628010_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_142439_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312628022_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_142747_0000.png",
+  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312628041_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_144615_0000.png",
+  //           ],
+  //         },
+  //       ],
+  //       Finish: "Natural ,Leather",
+  //       VariantID: "001A",
+  //     },
+  //   ],
+  //   ProductId: "prod_44476046577378648",
+  //   CategoryID: "cat_17255138342343018",
+  //   Description:
+  //     "The Square Pattern Stone features a distinctive square design that adds a modern and organized look to outdoor areas. Ideal for applications such as parking lots and garden pathways, this stone combines both functionality and aesthetic appeal. \n\nAvailable in a range of colors and sizes, the Square Pattern Stone is designed for durability and performance in various outdoor settings. Its robust construction ensures it can withstand the elements, making it a reliable choice for enhancing any exterior space",
+  //   ProductName: "Square Pattern",
+  // },
   {
     Type: "Natural",
     Material: "Tandur Stone",
@@ -1754,6 +1754,7 @@ const productsData = [
         Colors: [
           {
             Edge: "Machine Cutting",
+            ColorName: "Brown, Green, Black , Grey , Yellow",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205577984_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_141122_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205586412_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_141440_0000.png",
@@ -1762,7 +1763,6 @@ const productsData = [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205612984_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_142747_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205621108_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_144615_0000.png",
             ],
-            ColorName: "Brown, Green, Black , Grey , Yellow",
           },
         ],
         Finish: "Natural ,Leather",

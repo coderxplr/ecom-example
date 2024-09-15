@@ -24,7 +24,8 @@ const Gallery = () => {
   return (
     <div style={{ fontFamily: 'lexand' }}>
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 justify-center">
+        {/* Responsive grid: 1 column for mobile (sm), 2 for medium (md), 3 for large */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center">
           {gallaryImages.map((image, index) => (
             <div 
               key={index} 

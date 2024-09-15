@@ -20,8 +20,8 @@ const Footer = () => {
           </a>
         </div>
         <div className="text-center mb-2 text-sm md:text-base lg:text-lg">
-          <p>Made By: Mohammad Awaiz & Mohammad Suleman</p>
-          <a href="https://wa.me/9989386197" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 text-gold-700 m-2">
+          <p>Made By: Mohammad Awaiz & Mohammad S Suleman</p>
+          <a href="https://wa.me/8464800105" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 text-gold-700 m-2">
             <FaWhatsapp size={24} className='text-green-600'/>
             <span>9989386197</span>
             <span>8464800105</span>
