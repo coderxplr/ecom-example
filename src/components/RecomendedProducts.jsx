@@ -40,7 +40,7 @@ const RecommendedProducts = () => {
               {/* Overlay with Product Name */}
               <div className="absolute bottom-0 left-0 right-0 m-4 bg-black bg-opacity-50 text-white py-2 text-center">
                 <p
-                  className="text-sm font-bold text-white"
+                  className="text-[12px] font-bold text-white"
                   style={{ fontFamily: "lexand" }}
                 >
                   {product.ProductName}

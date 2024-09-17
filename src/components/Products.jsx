@@ -41,7 +41,7 @@ const Products = () => {
           {filteredProducts.map(product => (
             <div 
               key={product.ProductID} 
-              className="cursor-pointer relative flex flex-col items-center rounded overflow-hidden shadow-lg border-2 border-yellow-700 mb-4 w-full sm:w-5/6 md:w-5/6 lg:w-5/6 xl:w-5/6 transform transition-transform duration-300 hover:scale-105 hover:z-105"
+              className="cursor-pointer relative flex flex-col items-center rounded overflow-hidden shadow-lg mb-4 w-full sm:w-5/6 md:w-5/6 lg:w-5/6 xl:w-5/6 transform transition-transform duration-300 hover:scale-105 hover:z-105"
               onClick={() => handleProductClick(product)}
             >
               <div className="relative w-full">
@@ -54,8 +54,8 @@ const Products = () => {
                 // style={{ objectFit: "cover" }}
               />
             </div>
-            <div className="bg-yellow-700 w-full h-full text-center">
-                <p className="text-sm pt-2 text-white" style={{ fontFamily: 'lexand' }}>{product.ProductName}</p>
+            <div className="absolute bottom-0 left-0 right-0 m-4 bg-black bg-opacity-50 text-white py-2 text-center">
+                <p className="text-[10px] font-bold text-white" style={{ fontFamily: 'lexand' }}>{product.ProductName}</p>
             </div>
               {/* <p className="mt-4 text-center text-xl font-semibold bg-yellow-700 text-white p-2">{product.ProductName}</p> */}
             </div>

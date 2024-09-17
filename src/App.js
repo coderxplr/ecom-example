@@ -46,7 +46,7 @@ function App() {
             <FaPhone size={24} className="text-white" />
           </a>
           <a
-            href="https://wa.me/6302141511"
+            href="https://wa.me/+916302141511"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg cursor-pointer z-50"

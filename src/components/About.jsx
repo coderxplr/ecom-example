@@ -29,7 +29,7 @@ const About = () => {
         <h2 className="text-2xl sm:text-3xl font-semibold text-gold-700 mb-4">Get in Touch</h2>
         <p className="text-lg sm:text-xl text-black text-left leading-relaxed">
           Thank you for considering Ace Natural Stones. We look forward to helping you achieve your vision. Contact us today to learn more about our products and services!
-          <a href='/contactus' className='ml-2 p-2 text-blue-700'>Click Here to Contact Us</a>
+          {/* <a href='/contactus' className='ml-2 p-2 text-blue-700'>Click Here to Contact Us</a> */}
         </p>
       </div>
     </div>

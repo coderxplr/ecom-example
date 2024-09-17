@@ -22,7 +22,7 @@ const Categories = () => {
           <div
             key={category.CategoryID}
             onClick={() => handleCategoryClick(category)}
-            className="cursor-pointer relative flex flex-col items-center rounded overflow-hidden shadow-lg border-2 border-yellow-700 mb-4 w-full sm:w-5/6 md:w-5/6 lg:w-5/6 xl:w-5/6 transform transition-transform duration-300 hover:scale-105 hover:z-10"
+            className="cursor-pointer relative flex flex-col items-center rounded overflow-hidden shadow-lg mb-4 w-full sm:w-5/6 md:w-5/6 lg:w-5/6 xl:w-5/6 transform transition-transform duration-300 hover:scale-105 hover:z-10"
           >
             <div className="relative w-full">
               <img
@@ -33,8 +33,8 @@ const Categories = () => {
             }
               />
             </div>
-            <div className="bg-yellow-700 w-full text-center">
-                <p className="text-lg pt-2 text-white" style={{ fontFamily: 'lexand' }}>{category.CategoryName}</p>
+            <div className="absolute bottom-0 left-0 right-0 m-4 bg-black bg-opacity-50 text-white py-2 text-center">
+                <p className="text-sm font-bold text-white" style={{ fontFamily: 'lexand' }}>{category.CategoryName}</p>
             </div>
               
           </div>
