@@ -20,11 +20,10 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209069582_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_205728_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209019980_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_230821_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209033505_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_231756_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209046665_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_204604_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209076546_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_210200_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727015709662_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_195050_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727015709870_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_201902_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727015709893_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_202204_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727015709681_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_201103_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -62,9 +61,9 @@ const productsData = [
             ColorName: "Green",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726308673877_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_194800_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726308673886_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_201344_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726308673903_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_202001_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726308673918_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_202048_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726308673886_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_201344_0000.png",
             ],
           },
         ],
@@ -150,9 +149,9 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309404953_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_182636_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309404927_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_161824_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309404931_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_162821_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309404953_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_182636_0000.png",
             ],
             ColorName: "Yellow",
           },
@@ -188,10 +187,10 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309630298_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_201502_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309630290_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_194714_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309630319_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_201838_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309630336_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_202248_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309630298_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_201502_0000.png",
             ],
             ColorName: "Yellow",
           },
@@ -274,9 +273,9 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309741085_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_182039_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309741089_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_182956_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309741107_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_183259_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309741085_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_182039_0000.png",
             ],
             ColorName: "Green",
           },
@@ -292,108 +291,6 @@ const productsData = [
       "The Green Cobble is an excellent choice for adding a touch of natural elegance to your outdoor spaces. These cobblestones come in a refreshing green shade that brings a vibrant and earthy feel to any area. They are perfect for paving driveways, pathways, and landscaping projects. \n\nAvailable in various sizes, Green Tandur Cobbles are known for their durability and resistance to wear, making them suitable for both high-traffic and decorative applications. The natural stone composition ensures longevity and resilience against the elements, while the unique green hue enhances the visual appeal of residential and commercial spaces alike. \n\nIdeal for creating stylish walkways or standout driveways, Green Tandur Cobbles offer both functionality and aesthetic charm, making them a versatile and attractive option for your outdoor design needs.",
     ProductName: "Green Cobble",
   },
-  // {
-  //   Type: "Natural",
-  //   Material: "Tandur Stone",
-  //   Variants: [
-  //     {
-  //       Sizes: [
-  //         {
-  //           Width: "23 inches",
-  //           Length: "23 inches",
-  //           Thickness: "25mm - 30mm",
-  //         },
-  //         {
-  //           Width: "23 inches",
-  //           Length: "17 inches",
-  //           Thickness: "25mm - 30mm",
-  //         },
-  //         {
-  //           Width: "11 inches",
-  //           Length: "23 inches",
-  //           Thickness: "25mm to 30mm",
-  //         },
-  //         {
-  //           Width: "11 inches",
-  //           Length: "11 inches",
-  //           Thickness: "25mm to 30mm",
-  //         },
-  //       ],
-  //       Colors: [
-  //         {
-  //           Edge: "Machine Cutting",
-  //           Images: [
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996962_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_224354_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996925_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_143606_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996928_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_144205_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996964_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_224509_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726309996976_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_205934_0000.png",
-  //           ],
-  //           ColorName: "Grey",
-  //         },
-  //       ],
-  //       Finish: "Natural",
-  //       VariantID: "001A",
-  //     },
-  //   ],
-  //   ProductID: "prod_17254600751257277",
-  //   ProductId: "prod_10626234359637010",
-  //   CategoryID: "cat_17253559734044558",
-  //   Description:
-  //     "- Suitable for regular vehicular traffic and parking lots \n\n- Can withstand moderate wear and tear \n\n- Ideal for driveways, parking spaces, and garage floors \n\n- Offers a good balance between durability and affordability \n\n- Thickness tolerance: 25-30mm (natural stone variability) \nPlease note that the thickness tolerances are due to the natural variability of the stone, and the actual thickness may vary slightly depending on the specific pieces.",
-  //   ProductName: "30mm",
-  // },
-  // {
-  //   Type: "Natural",
-  //   Material: "Tandur Stone",
-  //   Variants: [
-  //     {
-  //       Sizes: [
-  //         {
-  //           Width: "23 inches",
-  //           Length: "23 inches",
-  //           Thickness: "25mm - 30mm",
-  //         },
-  //         {
-  //           Width: "23 inches",
-  //           Length: "17 inches",
-  //           Thickness: " 25mm - 30mm",
-  //         },
-  //         {
-  //           Width: "11 inches",
-  //           Length: "23 inches",
-  //           Thickness: "25mm - 30mm",
-  //         },
-  //         {
-  //           Width: " 11 inches",
-  //           Length: " 11 inches",
-  //           Thickness: "25mm - 30mm",
-  //         },
-  //       ],
-  //       Colors: [
-  //         {
-  //           Edge: "Machine Cutting",
-  //           Images: [
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111659_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154125_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111638_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_153513_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111665_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154151_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111689_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154423_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726310111711_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154457_0000.png",
-  //           ],
-  //           ColorName: "Brown",
-  //         },
-  //       ],
-  //       Finish: "Polished",
-  //       VariantID: "001A",
-  //     },
-  //   ],
-  //   ProductID: "prod_17253938536433991",
-  //   ProductId: "prod_41919509129797448",
-  //   CategoryID: "cat_17253559205241743",
-  //   Description:
-  //     "Elevate the look of any space with the Brown High-Polish Stone, a refined choice for both high-end commercial environments and sophisticated homes. Its glossy, high-polish surface provides a smooth, reflective finish that brings a touch of elegance and warmth to interiors. The deep brown color adds a sense of richness and complements a range of design themes. \n\nBuilt to withstand heavy use while maintaining its attractive appearance, this stone is durable and features a non-slip surface for added safety. Offered in various sizes, the Brown High-Polish Stone blends durability with a luxurious look, making it ideal for creating stunning floors in premium settings.",
-  //   ProductName: "Brown High Polish",
-  // },
   {
     Type: "Natural",
     Material: "Tandur Stone",
@@ -435,10 +332,11 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209432141_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_205728_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209423678_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_204604_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209440645_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_210200_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209446774_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240830_194256_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209423678_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_204604_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727016122045_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_231834_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209440645_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_210200_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209432141_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_205728_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -475,10 +373,10 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209696949_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_201714_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209688883_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_195853_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209703677_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_201759_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209710573_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_202335_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209696949_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_201714_0000.png",
             ],
             ColorName: "Brown",
           },
@@ -565,9 +463,9 @@ const productsData = [
           {
             Edge: "Hand Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311021510_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_213852_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311021494_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_213046_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311021509_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_213534_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311021494_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_213046_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311021510_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_213852_0000.png",
             ],
             ColorName: "Yellow",
           },
@@ -583,209 +481,6 @@ const productsData = [
       "Yellow Cobble Handcut Stone is a naturally durable stone with a rustic and textured finish, achieved through skilled hand cutting. This cobble stone is available in a warm yellow hue, adding a charming and traditional look to outdoor spaces. Ideal for pathways, driveways, patios, and landscaping projects, it offers both aesthetic appeal and functionality. The handcut edges enhance its natural beauty, making it a perfect choice for creating timeless and enduring surfaces.",
     ProductName: "Yellow Cobble Handcut Stone",
   },
-  // {
-  //   Type: "Natural",
-  //   Material: "Tandur Stone",
-  //   Variants: [
-  //     {
-  //       Sizes: [
-  //         {
-  //           Width: "23 inches",
-  //           Length: "23 inches",
-  //           Thickness: "15mm to 20mm",
-  //         },
-  //         {
-  //           Width: "23 inches",
-  //           Length: "17 inches",
-  //           Thickness: "15mm to 20mm",
-  //         },
-  //         {
-  //           Width: "11 inches",
-  //           Length: "23 inches",
-  //           Thickness: "15mm to 20mm",
-  //         },
-  //         {
-  //           Width: "11 inches",
-  //           Length: "11 inches",
-  //           Thickness: "15mm to 20mm",
-  //         },
-  //       ],
-  //       Colors: [
-  //         {
-  //           Edge: "Machine Cutting",
-  //           ColorName: "Grey",
-  //           Images: [
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478502_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205112_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478480_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_204425_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478507_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205250_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478539_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205405_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311478559_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205444_0000.png",
-  //           ],
-  //         },
-  //       ],
-  //       Finish: "Natural",
-  //       VariantID: "001A",
-  //     },
-  //   ],
-  //   ProductId: "prod_36235431232331840",
-  //   CategoryID: "cat_17253559734044558",
-  //   Description:
-  //     "- Ideal for pedestrian pathways and light vehicular traffic \n\n- Suitable for parking lots with occasional car movement \n\n- Easy to install and maintain \n\n- Cost-effective option \n\n- Thickness tolerance: 15-20mm (natural stone variability) \nPlease note that the thickness tolerances are due to the natural variability of the stone, and the actual thickness may vary slightly depending on the specific pieces.",
-  //   ProductName: "20mm",
-  // },
-  // {
-  //   Type: "Natural",
-  //   Material: "Tandur Stone",
-  //   Variants: [
-  //     {
-  //       Sizes: [
-  //         {
-  //           Width: "23 inches",
-  //           Length: "23 inches",
-  //           Thickness: "35mm to 40mm",
-  //         },
-  //         {
-  //           Width: "23 inches",
-  //           Length: "17 inches",
-  //           Thickness: "35mm to 40mm",
-  //         },
-  //         {
-  //           Width: "11 inches",
-  //           Length: "23 inches",
-  //           Thickness: "35mm - 40mm",
-  //         },
-  //         {
-  //           Width: "11 inches",
-  //           Length: "11 inches",
-  //           Thickness: "45mm to 50mm",
-  //         },
-  //       ],
-  //       Colors: [
-  //         {
-  //           Edge: "Machine Cutting",
-  //           Images: [
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644673_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205112_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644659_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_204543_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644676_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205250_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644691_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205405_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726311644706_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205444_0000.png",
-  //           ],
-  //           ColorName: "Grey",
-  //         },
-  //       ],
-  //       Finish: "Natural",
-  //       VariantID: "001A",
-  //     },
-  //   ],
-  //   ProductID: "prod_17253951927281201",
-  //   ProductId: "prod_88345754120574288",
-  //   CategoryID: "cat_17253559734044558",
-  //   Description:
-  //     "- Recommended for heavy vehicular traffic and large parking areas \n- Can withstand significant wear and tear \n- Ideal for commercial parking lots, highways, and heavy-duty applications \n- Offers superior durability and strength \n- Thickness tolerance: 35-40mm (natural stone variability) \nPlease note that the thickness tolerances are due to the natural variability of the stone, and the actual thickness may vary slightly depending on the specific pieces.",
-  //   ProductName: "40mm",
-  //   
-  // },
-  // {
-  //   Type: "Natural",
-  //   Material: "Tandur Stone",
-  //   Variants: [
-  //     {
-  //       Sizes: [
-  //         {
-  //           Width: "23 inches",
-  //           Length: "23 inches",
-  //           Thickness: "25mm - 30mm",
-  //         },
-  //         {
-  //           Width: "23 inches",
-  //           Length: "17 inches",
-  //           Thickness: "25mm - 30mm",
-  //         },
-  //         {
-  //           Width: "11 inches",
-  //           Length: "23 inches",
-  //           Thickness: "25mm - 30mm",
-  //         },
-  //         {
-  //           Width: "11 inches",
-  //           Length: "11 inches",
-  //           Thickness: "25mm - 30mm",
-  //         },
-  //       ],
-  //       Colors: [
-  //         {
-  //           Edge: "Machine Cutting",
-  //           ColorName: "Yellow",
-  //           Images: [
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405021_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160526_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405042_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160609_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405044_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_205644_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405060_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160259_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312405074_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160639_0000.png",
-  //           ],
-  //         },
-  //       ],
-  //       Finish: "Polished",
-  //       VariantID: "001A",
-  //     },
-  //   ],
-  //   ProductId: "prod_86318441941938368",
-  //   CategoryID: "cat_17253559205241743",
-  //   Description:
-  //     "The Yellow High-Polish Stone provides a luxurious flooring option for both commercial buildings and homes. Its high-polish finish delivers a bright, reflective surface that enhances the elegance of high-end interiors. The vibrant yellow color adds warmth and sophistication to any space. \n\nDesigned for durability and ease of maintenance, this stone is suitable for high-traffic areas and offers non-slip properties for safety. Available in various sizes, the Yellow High-Polish Stone combines functionality with a stylish look, making it an excellent choice for premium residential and commercial environments.",
-  //   ProductName: "Yellow High Polish",
-  // },
-  // {
-  //   Type: "Natural",
-  //   Material: "Tandur Stone",
-  //   Variants: [
-  //     {
-  //       Sizes: [
-  //         {
-  //           Width: "23 inches",
-  //           Length: "23 inches",
-  //           Thickness: "18mm - 22mm",
-  //         },
-  //         {
-  //           Width: "23 inches",
-  //           Length: "23 Inches",
-  //           Thickness: " 25mm - 30mm",
-  //         },
-  //         {
-  //           Width: " 17 inches",
-  //           Length: " 17 inches",
-  //           Thickness: "18mm - 22mm",
-  //         },
-  //         {
-  //           Width: "17 inches",
-  //           Length: " 17 inches",
-  //           Thickness: "25mm to 30mm",
-  //         },
-  //       ],
-  //       Colors: [
-  //         {
-  //           Edge: "",
-  //           ColorName: "",
-  //           Images: [
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312627964_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_141122_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312627990_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_141440_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312627994_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_142028_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312628010_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_142439_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312628022_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_142747_0000.png",
-  //             "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726312628041_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_144615_0000.png",
-  //           ],
-  //         },
-  //       ],
-  //       Finish: "Natural ,Leather",
-  //       VariantID: "001A",
-  //     },
-  //   ],
-  //   ProductId: "prod_44476046577378648",
-  //   CategoryID: "cat_17255138342343018",
-  //   Description:
-  //     "The Square Pattern Stone features a distinctive square design that adds a modern and organized look to outdoor areas. Ideal for applications such as parking lots and garden pathways, this stone combines both functionality and aesthetic appeal. \n\nAvailable in a range of colors and sizes, the Square Pattern Stone is designed for durability and performance in various outdoor settings. Its robust construction ensures it can withstand the elements, making it a reliable choice for enhancing any exterior space",
-  //   ProductName: "Square Pattern",
-  // },
   {
     Type: "Natural",
     Material: "Tandur Stone",
@@ -862,9 +557,9 @@ const productsData = [
           {
             Edge: "Cutting Edge",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726313411949_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_182344_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726313411966_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_183050_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726313411967_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_183154_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726313411949_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_182344_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -950,9 +645,9 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726070746314_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_182211_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726070755824_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_182927_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726070765340_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_183225_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726070746314_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_182211_0000.png",
             ],
             ColorName: "Brown",
           },
@@ -966,94 +661,6 @@ const productsData = [
     Description:
       "The Brown Cobble combines rustic charm with exceptional durability, making it an excellent choice for various paving and landscaping applications. Crafted from premium Tandur stone, these cobblestones showcase a rich brown hue that adds a warm and inviting touch to outdoor areas. They are ideal for driveways, pathways, and decorative features. \n\nAvailable in multiple sizes, Brown Tandur Cobbles are built to withstand heavy traffic and resist wear over time. Their natural stone composition ensures lasting strength and weather resistance, while the earthy brown color enhances the visual appeal of both residential and commercial spaces. \n\nWhether used to create charming walkways or robust driveways, Brown Tandur Cobbles provide both aesthetic beauty and practical performance, making them a versatile addition to any outdoor design.",
     ProductName: "Brown Cobble",
-  },
-  {
-    Type: "Natural",
-    Material: "Tandur Stone",
-    Variants: [
-      {
-        Sizes: [
-          {
-            Width: "4 inches",
-            Length: "4 inches",
-            Thickness: "18mm - 22mm",
-          },
-          {
-            Width: "4 inches",
-            Length: "4 inches",
-            Thickness: "25mm - 30mm",
-          },
-          {
-            Width: "4 inches",
-            Length: "4 inches",
-            Thickness: "35mm - 40mm",
-          },
-          {
-            Width: "4 inches",
-            Length: "4 inches",
-            Thickness: "45mm - 50mm",
-          },
-          {
-            Width: "6 inches",
-            Length: "6 inches",
-            Thickness: " 18mm - 22mm",
-          },
-          {
-            Width: "6 inches",
-            Length: "6 inches",
-            Thickness: " 25mm - 30mm",
-          },
-          {
-            Width: "6 inches",
-            Length: "6 inches",
-            Thickness: "35mm - 40mm",
-          },
-          {
-            Width: "6 inches",
-            Length: "6 inches",
-            Thickness: "45mm - 50mm",
-          },
-          {
-            Width: "8 inches",
-            Length: "8 inches",
-            Thickness: "18mm - 22mm",
-          },
-          {
-            Width: "8 inches",
-            Length: "8 inches",
-            Thickness: "25mm - 30mm",
-          },
-          {
-            Width: "8 inches",
-            Length: "8 inches",
-            Thickness: "35mm - 40mm",
-          },
-          {
-            Width: " 8 inches",
-            Length: " 8 inches",
-            Thickness: " 45mm - 50mm",
-          },
-        ],
-        Colors: [
-          {
-            Edge: "Hand Cutting",
-            Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726071316194_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_213046_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726071322080_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_213534_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726071326623_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_213852_0000.png",
-            ],
-            ColorName: "Yellow",
-          },
-        ],
-        Finish: "Natural",
-        VariantID: "001B",
-      },
-    ],
-    ProductId: "prod_17260714553761312",
-    CategoryID: "cat_1725355725154987",
-    Description:
-      "Yellow Cobble Handcut Stone is a naturally durable stone with a rustic and textured finish, achieved through skilled hand cutting. This cobble stone is available in a warm yellow hue, adding a charming and traditional look to outdoor spaces. Ideal for pathways, driveways, patios, and landscaping projects, it offers both aesthetic appeal and functionality. The handcut edges enhance its natural beauty, making it a perfect choice for creating timeless and enduring surfaces.",
-    ProductName: "Yellow Cobble",
   },
   {
     Type: "Natural",
@@ -1176,9 +783,9 @@ const productsData = [
           {
             Edge: "Hand Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726071838686_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_213927_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726071850116_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_214028_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726071873569_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_214118_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726071838686_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_213927_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -1230,7 +837,7 @@ const productsData = [
     ProductId: "prod_17260750436236649",
     CategoryID: "cat_17253558480386072",
     Description: "Satin",
-    ProductName: "Round Natural Finish -  Tandur Stone",
+    ProductName: "Round Polished Finish -  Tandur Stone",
 
   },
   {
@@ -1254,9 +861,9 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726313126972_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240801_132757_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726313126950_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240731_204223_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726313126969_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240731_204331_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726313126972_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240801_132757_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726313126986_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_160908_0000.png",
             ],
             ColorName: "Brown, Green, Black , Grey , Yellow",
@@ -1306,8 +913,8 @@ const productsData = [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203514672_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_143306_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203523225_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_143445_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203532341_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_143556_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203540645_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_144128_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203548722_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_144156_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203540645_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_144128_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -1353,11 +960,11 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203727771_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160259_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203736922_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160526_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203771128_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_205644_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203746224_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160609_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203755738_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160639_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203771128_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_205644_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203727771_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160259_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203736922_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160526_0000.png",
             ],
             ColorName: "Yellow",
           },
@@ -1404,10 +1011,10 @@ const productsData = [
             Edge: "Machine Cutting",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726203989544_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_153513_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204002370_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154125_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204015631_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154151_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204027435_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154423_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204053130_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154457_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204015631_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154151_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204002370_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154125_0000.png",
             ],
             ColorName: "Brown",
           },
@@ -1453,11 +1060,11 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204183041_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_091649_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204191434_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_091859_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204218066_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_092656_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204200328_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_092216_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204209501_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_092310_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204218066_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_092656_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204191434_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_091859_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204183041_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_091649_0000.png",
             ],
             ColorName: "Brown",
           },
@@ -1503,11 +1110,11 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204391774_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_204601_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204375013_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_203014_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204382879_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_204344_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204400041_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_205035_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204409796_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_205934_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204391774_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_204601_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204400041_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_205035_0000.png",
             ],
             ColorName: "Green",
           },
@@ -1554,10 +1161,10 @@ const productsData = [
             Edge: "Machine Cutting",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204645604_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_204128_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204654514_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205112_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204662983_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205250_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204673334_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205405_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204682157_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205444_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204654514_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205112_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204662983_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205250_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -1609,10 +1216,10 @@ const productsData = [
             Edge: "Machine Cutting",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204838580_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_204543_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204847184_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205112_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204859238_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205250_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204867836_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205405_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204886637_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205444_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204847184_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205112_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204859238_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205250_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -1660,10 +1267,10 @@ const productsData = [
             Edge: "Machine Cutting",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205148980_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_204637_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205158266_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205112_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205167543_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205250_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205176178_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205405_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205183097_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205444_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205158266_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205112_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205167543_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205250_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -1711,10 +1318,10 @@ const productsData = [
             Edge: "Machine Cutting",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205337986_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_204425_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205347591_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205112_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205357116_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205250_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205366229_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205405_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205376885_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205444_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205347591_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205112_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205357116_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_205250_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -1919,10 +1526,10 @@ const productsData = [
           {
             Edge: "Quarry Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726206794453_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_204359_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726206802209_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_204503_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726206808808_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_205041_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726206815737_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_221009_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726206794453_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_204359_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726206802209_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_204503_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -1968,10 +1575,10 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726207234903_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_225403_0000%20%282%29.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726207243141_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_225403_0000%20%281%29.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726207252086_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_225517_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726207259761_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_225403_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727020817162_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_225403_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727020817304_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_225517_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727020817148_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_201134_0000.png",
+        "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727020817316_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_230053_0000.png"
             ],
             ColorName: "Grey",
           },
@@ -2023,9 +1630,9 @@ const productsData = [
             Edge: "Machine Cutting",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726207719203_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_200959_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726207736842_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_220921_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726207726301_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_202743_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726207732512_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_204744_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726207736842_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_220921_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -2076,10 +1683,9 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208055825_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240801_125355_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208063917_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240730_225901_0000%20%281%29.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208072147_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240730_225800_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208079106_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240730_225901_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208055825_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240801_125355_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -2130,9 +1736,9 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208266939_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240801_125355_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208277096_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240730_225211_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208285703_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240730_230959_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208266939_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240801_125355_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -2165,9 +1771,9 @@ const productsData = [
           {
             ColorName: "Grey",
             Images: [
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726334519383_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_154451_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726334519356_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_153854_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726334519381_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_154004_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726334519383_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_154451_0000.png",
             ],
           },
         ],
@@ -2238,9 +1844,7 @@ const productsData = [
           {
             Edge: "Machine Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208459003_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_153736_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208459003_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_153736_0000.png",
-            ],
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208459003_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_153736_0000.png",            ],
             ColorName: "Grey",
           },
         ],
@@ -2291,10 +1895,10 @@ const productsData = [
             Edge: "Machine Cutting",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209498713_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_230821_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209505634_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_231756_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209511013_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_204604_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209520141_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_205728_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209505634_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_231756_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209527108_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_210200_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209520141_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_205728_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -2330,8 +1934,8 @@ const productsData = [
             ColorName: "Yellow",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331323397_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_192357_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331323406_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_192849_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331323444_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193536_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331323406_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_192849_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331323460_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193731_0000.png",
             ],
           },
@@ -2374,8 +1978,8 @@ const productsData = [
             ColorName: "Green",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331367327_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_192215_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331367340_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193015_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331367344_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193554_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331367340_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193015_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331367360_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193647_0000.png",
             ],
           },
@@ -2463,8 +2067,8 @@ const productsData = [
             ColorName: "Brown",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331433645_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_192253_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331433659_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193212_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331433680_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193515_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331433659_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193212_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331433681_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193802_0000.png",
             ],
           },
@@ -2508,9 +2112,9 @@ const productsData = [
           {
             ColorName: "Grey",
             Images: [
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333164548_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240812_153638_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333164526_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_000531_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333164546_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_001137_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333164548_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240812_153638_0000.png",
             ],
           },
         ],
@@ -2548,10 +2152,10 @@ const productsData = [
           {
             ColorName: "Yellow",
             Images: [
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333213511_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240812_154113_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333213495_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_085402_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333213466_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160639_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333213492_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_084750_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333213495_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_085402_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333213511_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240812_154113_0000.png",
             ],
           },
         ],
@@ -2572,7 +2176,7 @@ const productsData = [
     ],
   },
   {
-    ProductId: "prod_18862083916879220",
+    ProductId: "prod_18862083916079220",
     ProductName: "Brown Satin Finish",
     Type: "Natural",
     Material: "Tandur Stone",
@@ -2589,10 +2193,10 @@ const productsData = [
           {
             ColorName: "Brown",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333264202_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_145510_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333264241_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240812_153525_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333264225_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_145553_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333264227_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_154457_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333264241_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240812_153525_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333264202_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_145510_0000.png",
             ],
           },
         ],
@@ -2644,10 +2248,10 @@ const productsData = [
             Edge: "Quarry Cutting",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726335584168_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_182249_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726335584187_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_182400_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726335584190_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_182514_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726335584206_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_182700_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726335584187_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_182400_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726335584221_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_212851_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726335584190_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_182514_0000.png",
             ],
             ColorName: "Grey",
           },
@@ -2690,11 +2294,11 @@ const productsData = [
           {
             Edge: "Quarry Cutting",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336015127_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_172933_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336015150_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_173019_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336015153_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_173128_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336015170_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_173528_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336015183_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_173758_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336015127_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_172933_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336015150_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_173019_0000.png",
             ],
             ColorName: "Grey",
           },
