@@ -1,22 +1,10 @@
-import React, { useState, useEffect, useRef } from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Banners = () => {
-  const [activeSlide, setActiveSlide] = useState(0);
-  const [loading, setLoading] = useState([true, true, true]);
-  const sliderRef = useRef(null);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      const updatedLoading = [...loading];
-      updatedLoading[0] = false;
-      setLoading(updatedLoading);
-    }, 1000); // 5 seconds delay
-
-    return () => clearTimeout(timer);
-  }, []);
+  const sliderRef = React.useRef(null);
 
   const settings = {
     dots: true,
@@ -24,19 +12,9 @@ const Banners = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
     arrows: false,
-    beforeChange: (current, next) => {
-      setActiveSlide(next);
-    },
-    afterChange: (current) => {
-      if (loading[current]) {
-        const updatedLoading = [...loading];
-        setTimeout(() => {
-          updatedLoading[current] = false;
-          setLoading(updatedLoading);
-        }, 5000); // 5 seconds delay
-      }
-    },
   };
 
   const goNext = () => {
@@ -48,90 +26,68 @@ const Banners = () => {
   };
 
   return (
-    <div className="w-90 h-[400px] overflow-hidden relative" style={{ fontFamily: 'lexand' }}>
+    <div className="w-90 overflow-hidden relative font-lexend">
       <style>
         {`
-          .slick-slide {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 400px; /* Set height for all screens */
+          .slick-slide img {
+            height: 500px; /* Default height for desktop */
           }
-
-          iframe {
-            width: 100%;
-            height: 100%; /* Ensures the iframe takes the full space */
-          }
-
           @media (max-width: 768px) {
-            .slick-slide {
-              height: 400px; /* Adjusted height for mobile */
+            .slick-slide img {
+              height: 400px; /* Increased height for mobile */
             }
-          }
-
-          .dot-loader {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-
-          .dot-loader div {
-            width: 10px;
-            height: 10px;
-            margin: 5px;
-            background-color: white;
-            border-radius: 50%;
-            animation: dot-bounce 1.4s infinite ease-in-out both;
-          }
-
-          @keyframes dot-bounce {
-            0%, 80%, 100% {
-              transform: scale(0);
-            }
-            40% {
-              transform: scale(1);
-            }
-          }
-
-          .dot-loader div:nth-child(1) {
-            animation-delay: -0.32s;
-          }
-          .dot-loader div:nth-child(2) {
-            animation-delay: -0.16s;
           }
         `}
       </style>
       <Slider ref={sliderRef} {...settings}>
-        {[0, 1, 2].map((index) => (
-          <div className="relative bg-gray-800 h-[400px]" key={index}>
-            {loading[index] ? (
-              <div className="absolute inset-0 flex items-center justify-center bg-gray-800 h-[400px]">
-                <div className="dot-loader">
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                </div>
-              </div>
-            ) : (
-              <iframe
-                src={
-                  activeSlide === index
-                    ? index === 0
-                      ? "https://www.youtube.com/embed/2dFQrN7z6dk?autoplay=1&mute=1&loop=1&playlist=2dFQrN7z6dk"
-                      : index === 1
-                      ? "https://www.youtube.com/embed/dnO3XFOt3rU?autoplay=1&mute=1&loop=1&playlist=dnO3XFOt3rU"
-                      : "https://www.youtube.com/embed/BilVQOHvF_4?autoplay=1&mute=1&loop=1&playlist=BilVQOHvF_4"
-                    : ""
-                }
-                frameBorder="0"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-                title={`Video ${index + 1}`}
-              ></iframe>
-            )}
+        <div className="relative">
+          <img
+            src="https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726983135279_01f8ed4e-cea8-4e87-97f1-62886748e06a%20%281%29.png"
+            alt="Slide 1"
+            className="w-full"
+          />
+          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-white">
+            <h1 className="lg:text-4xl md:text-2xl font-bold mb-4">Tandur Natural Stone Supply</h1>
+            <p className="lg:text-lg md:text-sm mb-8 lg:w-[60%] ">
+             Quality Natural stones delivered across India in various finishes, colors, and sizes, perfect for indoor and outdoor applications. We ensure high-quality, durable stones and reliable delivery to meet your project needs.
+            </p>
+            <button className="border-2 border-white text-white py-2 px-6 rounded-md hover:bg-white hover:text-black transition duration-300">
+              Our Products
+            </button>
           </div>
-        ))}
+        </div>
+        <div className="relative">
+          <img
+            src="https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726983226430_04174a42-92c2-4545-b005-db113fc46c10.png"
+            alt="Slide 2"
+            className="w-full"
+          />
+          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-white">
+            <h1 className="lg:text-4xl md:text-2xl font-bold mb-4">Flooring Installation</h1>
+            <p className="lg:text-lg md:text-sm mb-8 lg:w-[60%] ">
+            Expert limestone flooring installation, tailored to your specific requirements. From consultation to completion, we ensure a flawless and durable floor for your home or commercial space..
+            </p>
+            <button className="border-2 border-white text-white py-2 px-6 rounded-md hover:bg-white hover:text-black transition duration-300">
+            Our Products
+            </button>
+          </div>
+        </div>
+        <div className="relative">
+          <img
+            src="https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726983280162_28c9c805-b97c-4da7-bbbf-dee39c7f6f1d.png"
+            alt="Slide 3"
+            className="w-full"
+          />
+          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-white">
+            <h1 className="lg:text-4xl md:text-2xl font-bold mb-4">Personalized Stone Guidance</h1>
+            <p className="lg:text-lg md:text-sm mb-8 lg:w-[60%] ">
+            Professional advice to help you choose the perfect stone for your project, considering style, usage, and durability, ensuring your vision becomes reality.
+            </p>
+            <button className="border-2 border-white text-white py-2 px-6 rounded-md hover:bg-white hover:text-black transition duration-300">
+            Our Products
+            </button>
+          </div>
+        </div>
       </Slider>
       <button
         onClick={goPrev}

@@ -1,12 +1,13 @@
 // import React, { useState } from 'react';
 import '../App.css'; // Import the CSS file for custom styles
-import HomeAbout from './HomeAbout';
+// import HomeAbout from './HomeAbout';
 import Banners from './Banners';
 import Categories from './Categories';
 import RecommendedProducts from './RecomendedProducts';
-import ContactSummary from './ContactSummary';
+// import ContactSummary from './ContactSummary';
 import OrderForm from './OrderForm';
 import HomeGallery from './HomeGallery';
+// import Services from './Services';
 // import Footer from './Footer';
 
 const Home = () => {
@@ -15,10 +16,11 @@ const Home = () => {
             <Banners/>
             <RecommendedProducts/>
             <Categories/>
-            {/* <HomeGallery/> */}
+            <HomeGallery/>
             <OrderForm/>
-            <HomeAbout/>
-            <ContactSummary/>
+            {/* <Services/> */}
+            {/* <HomeAbout/> */}
+            {/* <ContactSummary/> */}
         </div>
     )
 };

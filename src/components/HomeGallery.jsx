@@ -1,71 +1,67 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 const images = [
-    { id: 1, src: 'https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336801832_20240702_131258.jpg', alt: 'Image 1' },
-    { id: 2, src: 'https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336802032_20240706_130324.jpg', alt: 'Image 2' },
-    { id: 3, src: 'https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336802087_20240715_140824.jpg', alt: 'Image 3' },
-    { id: 4, src: 'https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336802137_20240629_131008.jpg', alt: 'Image 4' },
-    { id: 5, src: 'https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336802156_20240629_133407.jpg', alt: 'Image 5' },
-    { id: 6, src: 'https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336802238_20240629_134759.jpg', alt: 'Image 6' },
-    { id: 7, src: 'https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336802288_20240706_130413.jpg', alt: 'Image 7' },
-    { id: 8, src: 'https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336802325_20240707_111219.jpg', alt: 'Image 8' },
-    { id: 9, src: 'https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336802358_20240715_140914.jpg', alt: 'Image 9' },
-  ];
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989785_IMG-20240704-WA0138.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989790_IMG-20240704-WA0141.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989938_IMG-20240711-WA0044.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989951_IMG-20240711-WA0045.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989962_IMG-20240711-WA0048.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989970_IMG-20240711-WA0049.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989983_IMG-20240711-WA0058.jpg",
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726400989997_IMG-20240711-WA0065.jpg"
+];
 
-const App = () => {
-  const [visibleImages, setVisibleImages] = useState([]);
+const HomeGallery = () => {
+  const [isInView, setIsInView] = useState(false); // Tracks if the gallery is in view
+  const galleryRef = useRef(null); // Reference to the gallery container
 
-  // Incrementally show images with delay
   useEffect(() => {
-    const timer = setInterval(() => {
-      setVisibleImages((prevVisible) => {
-        const nextImage = images[prevVisible.length];
-        if (nextImage) {
-          return [...prevVisible, nextImage];
+    // Intersection Observer setup
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setIsInView(true); // Set to true when the gallery is in the viewport
+          observer.disconnect(); // Stop observing after triggering once
         }
-        return prevVisible;
       });
-    }, 500); // Delay between each image appearance
+    }, { threshold: 0.2 }); // Trigger when 20% of the gallery is visible
 
-    return () => clearInterval(timer);
+    if (galleryRef.current) {
+      observer.observe(galleryRef.current);
+    }
+
+    return () => {
+      if (galleryRef.current) {
+        observer.disconnect();
+      }
+    };
   }, []);
 
   return (
-    <div className="flex flex-wrap justify-center items-center min-h-screen bg-gray-100">
-      {visibleImages.map((image) => (
-        <div
-          key={image.id}
-          className="p-2 opacity-0 animate-fade-in duration-700"
-          style={{ animationDelay: `${image.id * 0.5}s` }}
-        >
-          <img
-            src={image.src}
-            alt={image.alt}
-            className="w-full h-auto object-cover rounded-lg shadow-lg"
-            style={{ width: getImageSize(image.id).width, height: getImageSize(image.id).height }}
-          />
-        </div>
-      ))}
+    <div className='font-lexend'>
+      <h2 className="text-3xl text-black mb-4 text-center font-lexand">Gallery</h2>
+      <div 
+        ref={galleryRef} // Reference to the gallery container
+        className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 p-6'
+      >
+        {images.map((src, index) => (
+          <div key={index} className="relative overflow-hidden h-48 rounded-lg shadow-lg">
+            <img
+              src={src}
+              alt={`Painting ${index + 1}`}
+              className={`w-full h-full object-cover transition-transform duration-700 transform ${
+                isInView
+                  ? index < 4
+                    ? 'animate-slide-left'  // First 4 images slide from the left
+                    : 'animate-slide-right' // Last 4 images slide from the right
+                  : 'opacity-0'  // Initially invisible
+              }`}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
 
-// Helper function to set different sizes for images
-const getImageSize = (id) => {
-  switch (id) {
-    case 1:
-      return { width: '300px', height: '400px' };
-    case 2:
-      return { width: '250px', height: '300px' };
-    case 3:
-      return { width: '350px', height: '350px' };
-    case 4:
-      return { width: '300px', height: '300px' };
-    case 5:
-      return { width: '400px', height: '300px' };
-    default:
-      return { width: '300px', height: '300px' };
-  }
-};
-
-export default App;
+export default HomeGallery;

@@ -6,21 +6,48 @@ const RecommendedProducts = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleProductClick = (product) => {
-    // Replace spaces with hyphens in product name
+    // Navigate to product details page using product id
     navigate(`/product/${encodeURIComponent(product.ProductId)}`);
   };
 
-  const recommendedProducts = productsData.filter(
-    (product) => product.IsRecommended
-  );
+  // Define the specific order of product names
+  const productOrder = [
+    "Center Piece – Slice Polish",
+    "Yellow leather polish",
+    "2×1 Wall Stone",
+    "30mm",
+    "Brown High Polish",
+    "Natural Steps",
+    "Diamond-Cut Finish",
+    "Yellow Cobble Handcut Stone",
+  ];
+
+  const recommendedProducts = productsData
+  .filter((product) => {
+    // Normalize both product name and the productOrder items by trimming and converting to lowercase
+    const normalizedProductName = product.ProductName.trim().toLowerCase();
+    return productOrder.some(
+      (orderedName) => orderedName.trim().toLowerCase() === normalizedProductName
+    );
+  })
+  .sort((a, b) => {
+    // Sort the products based on the predefined productOrder array
+    return (
+      productOrder
+        .map((name) => name.trim().toLowerCase()) // Normalize productOrder
+        .indexOf(a.ProductName.trim().toLowerCase()) -
+      productOrder
+        .map((name) => name.trim().toLowerCase())
+        .indexOf(b.ProductName.trim().toLowerCase())
+    );
+  })
+  .slice(0, 8); // Return only the first 8 products
+
 
   return (
     <div className="container mx-auto px-4" style={{ fontFamily: 'lexand' }}>
-      <h1
-        className="text-3xl font-semibold text-center my-4"
-        style={{ fontFamily: "lexand" }}
-      >
-        Recommended Products
+      <h1 className="text-3xl font-semibold text-center my-4 font-lexend">
+        Featured Selections
       </h1>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center">
         {recommendedProducts.map((product) => (
@@ -39,13 +66,9 @@ const RecommendedProducts = () => {
 
               {/* Overlay with Product Name */}
               <div className="absolute bottom-0 left-0 right-0 m-4 bg-black bg-opacity-50 text-white py-2 text-center">
-                <p
-                  className="text-[12px] font-bold text-white"
-                  style={{ fontFamily: "lexand" }}
-                >
+                <p className="lg:text-[12px] text-[10px] font-bold text-white font-lexend">
                   {product.ProductName}
                 </p>
-                {/* <p className="text-xs"> {product.ProductCount} Products</p> Optional: Product count */}
               </div>
             </div>
           </div>

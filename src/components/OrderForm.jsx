@@ -42,22 +42,22 @@ const OrderForm = () => {
     };
 
     return (
-        <div className='flex justify-center' style={{ fontFamily: 'lexand' }}>
-        <div className="mb-8 w-full bg-white p-6">
+        <div className='flex justify-center font-lexend'>
+        <div className="mb-8 w-[90%] bg-white p-6">
             <h2 className="text-3xl sm:text-3xl font-semibold text-black mb-4 text-center">Custom Orders</h2>
             <p className="text-lg sm:text-xl text-black mb-4">
                 Please fill out the details below to customize your order. When you're ready, share your order via WhatsApp for quick processing.
             </p>
             <form onSubmit={handleSubmit} className="space-y-4">
                 {[
-                    { label: 'Area of Use', name: 'areaOfUse', placeholder: 'e.g., Parking, Kitchen, Living Room' },
-                    { label: 'Product Type', name: 'productType', placeholder: 'e.g., Stone, Tile, Marble' },
-                    { label: 'Cutting', name: 'cutting', placeholder: 'e.g., Finish, Raw, Polished' },
-                    { label: 'Finish', name: 'finish', placeholder: 'e.g., Smooth, Textured, Matte' },
-                    { label: 'Color', name: 'color', placeholder: 'e.g., Grey, White, Beige' },
-                    { label: 'Thickness', name: 'thickness', placeholder: 'e.g., 10mm, 15mm, 20mm' },
-                    { label: 'Size', name: 'size', placeholder: 'e.g., 10 sqt, 12 sqt, Custom Size' },
-                    { label: 'Quantity', name: 'qty', placeholder: 'e.g., 10 pieces, 50 pieces' },
+                    { label: 'Area of Use', name: 'areaOfUse', placeholder: 'e.g., Outdoor, Parking, Hall, bedroom' },
+                    { label: 'Product Type', name: 'productType', placeholder: 'e.g., Tiles, Wall stone, Slab, Cobbles' },
+                    { label: 'Cutting', name: 'cutting', placeholder: 'e.g., Quarry cutting, Machine cutting,  Hand cutting' },
+                    { label: 'Finish', name: 'finish', placeholder: 'e.g., Leather, Polished, Natural, Satin, Mirror etc' },
+                    { label: 'Color', name: 'color', placeholder: 'e.g., Grey, Green, Yellow, Brown, Black' },
+                    { label: 'Thickness', name: 'thickness', placeholder: 'e.g., 15mm, 20mm, 30mm, 40mm 50mm' },
+                    { label: 'Size', name: 'size', placeholder: 'e.g., 2×2 feet, 2×3 feet, 2×4feet, 2×1 feet' },
+                    { label: 'Quantity', name: 'qty', placeholder: 'e.g., 1000 sq.ft' },
                 ].map((field, index) => (
                     <div key={index}>
                         <label className="block text-lg sm:text-xl font-semibold text-black mb-2" htmlFor={field.name}>
@@ -75,12 +75,14 @@ const OrderForm = () => {
                         />
                     </div>
                 ))}
+                <div className='flex justify-center'>
                 <button
                     type="submit"
-                    className="w-full p-3 bg-gold-700 text-white font-semibold rounded-lg hover:bg-gold-800"
+                    className="w-[300px]  p-3 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 mt-4"
                 >
                     Share Order via WhatsApp
                 </button>
+                </div>
             </form>
         </div>
         </div>

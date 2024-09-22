@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Products from "./components/Products";
 import NotFound from "./components/NotFound";
-import TopBar from "./components/TopBar";
+// import TopBar from "./components/TopBar";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
 import "./index.css";
@@ -19,7 +19,7 @@ function App() {
   return (
     <Router>
       <div>
-        <TopBar />
+        {/* <TopBar /> */}
         <Header />
         {/* <Banner /> */}
         <Routes>

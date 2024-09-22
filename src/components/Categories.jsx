@@ -10,10 +10,9 @@ const Categories = () => {
   };
 
   return (
-    <div className="container mx-auto px-4" style={{ fontFamily: 'lexand' }}>
+    <div className="container mx-auto px-4 font-lexend">
       <h1
-        className="text-3xl font-semibold text-center my-4"
-        style={{ fontFamily: "lexand" }}
+        className="text-3xl font-semibold text-center my-4 font-lexend"
       >
         Natural Stones
       </h1>
@@ -26,15 +25,15 @@ const Categories = () => {
           >
             <div className="relative w-full">
               <img
-                className="w-full h-48 p-1 object-contain"
+                className="w-full h-48 p-1 object-contain "
                 src={category.CategoryImage}
                 alt={category.CategoryName}
                 style={{ objectFit: "cover" }
             }
               />
             </div>
-            <div className="absolute bottom-0 left-0 right-0 m-4 bg-black bg-opacity-50 text-white py-2 text-center">
-                <p className="text-sm font-bold text-white" style={{ fontFamily: 'lexand' }}>{category.CategoryName}</p>
+            <div className="absolute bottom-0 left-0 right-0 m-4 bg-black bg-opacity-50 text-white py-2 text-center font-lexend">
+                <p className="text-sm font-bold text-white font-lexend">{category.CategoryName}</p>
             </div>
               
           </div>
