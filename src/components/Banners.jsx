@@ -46,14 +46,14 @@ const Banners = () => {
             alt="Slide 1"
             className="w-full"
           />
-          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-white">
-            <h1 className="lg:text-4xl md:text-2xl font-bold mb-4 text-[#001F3F]">
+          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-white bg-black bg-opacity-50">
+            <h1 className="lg:text-4xl md:text-2xl font-bold mb-4 text-white">
               Ace Natural Stones: Quality You Can Rely On
             </h1>
-            <p className="lg:text-lg md:text-sm mb-8 lg:w-[60%] text-[#001F3F]">
+            <p className="lg:text-lg md:text-sm mb-8 lg:w-[60%] text-white">
               Delivering quality and reliability for over a decade.
             </p>
-            <button className="border-2 border-[#001F3F] text-[#001F3F] py-2 px-6 rounded-md hover:bg-white hover:text-black transition duration-300">
+            <button className="border-2 border-white text-white py-2 px-6 rounded-md hover:bg-white hover:text-black transition duration-300">
               Our Products
             </button>
           </div>
@@ -64,7 +64,7 @@ const Banners = () => {
             alt="Slide 2"
             className="w-full"
           />
-          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-black">
+          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-white bg-black bg-opacity-50">
             <h1 className="lg:text-4xl md:text-2xl font-bold mb-4">
               15+ Years of Stone Expertise{" "}
             </h1>
@@ -73,7 +73,7 @@ const Banners = () => {
             </p>
             <a
               href="/products"
-              className="border-2 border-black text-black py-2 px-6 rounded-md hover:bg-black hover:text-white transition duration-300"
+              className="border-2 border-white text-white py-2 px-6 rounded-md hover:bg-white hover:text-black transition duration-300"
             >
               Products
             </a>
@@ -85,7 +85,7 @@ const Banners = () => {
             alt="Slide 3"
             className="w-full"
           />
-          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-white">
+          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-white bg-black bg-opacity-50">
             <h1 className="lg:text-4xl md:text-2xl font-bold mb-4">
               Unearth Excellence at Our Quarry
             </h1>
@@ -106,7 +106,7 @@ const Banners = () => {
             alt="Slide 4"
             className="w-full"
           />
-          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-white">
+          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-white bg-black bg-opacity-50">
             <h1 className="lg:text-4xl md:text-2xl font-bold mb-4">
               From Quarry to Factory{" "}
             </h1>
@@ -127,7 +127,7 @@ const Banners = () => {
             alt="Slide 5"
             className="w-full"
           />
-          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-white">
+          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-white bg-black bg-opacity-50">
             <h1 className="lg:text-4xl md:text-2xl font-bold mb-4">
               Quality Stones Delivered
             </h1>
@@ -148,7 +148,7 @@ const Banners = () => {
             alt="Slide 6"
             className="w-full"
           />
-          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-[#001F3F]">
+          <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-white bg-black bg-opacity-50">
             <h1 className="lg:text-4xl md:text-2xl font-bold mb-4">
               Flooring That Lasts a Lifetime{" "}
             </h1>
@@ -157,7 +157,7 @@ const Banners = () => {
             </p>
             <a
               href="/gallery"
-              className="border-2 border-[#001F3F] text-[#001F3F] py-2 px-6 rounded-md hover:bg-[#001F3F] hover:text-white transition duration-300"
+              className="border-2 border-white text-white py-2 px-6 rounded-md hover:bg-white hover:text-black transition duration-300"
             >
               Gallery
             </a>
