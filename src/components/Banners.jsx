@@ -54,7 +54,7 @@ const Banners = () => {
               Delivering quality and reliability for over a decade.
             </p>
             <button className="border-2 border-white text-white py-2 px-6 rounded-md hover:bg-white hover:text-black transition duration-300">
-              Our Products
+              Products
             </button>
           </div>
         </div>
@@ -66,9 +66,9 @@ const Banners = () => {
           />
           <div className="absolute inset-0 flex flex-col items-start justify-center pl-8 text-left text-white bg-black bg-opacity-50">
             <h1 className="lg:text-4xl md:text-2xl  sm:text-2xl font-bold mb-4">
-              15+ Years of Stone Expertise{" "}
+              15+ Years of Stone Expertise.
             </h1>
-            <p className="lg:text-lg md:text-sm  sm:text-sm b-8 lg:w-[60%] ">
+            <p className="lg:text-lg md:text-sm  sm:text-sm mb-8 lg:w-[60%]">
               Quality and craftsmanship you can trust.
             </p>
             <a
