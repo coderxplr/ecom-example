@@ -9,11 +9,11 @@ const Banners = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 2000,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 2000,
     arrows: false,
   };
 
@@ -53,9 +53,12 @@ const Banners = () => {
             <p className="lg:text-lg md:text-sm sm:text-sm  mb-8 lg:w-[60%] text-white">
               Delivering quality and reliability for over a decade.
             </p>
-            <button className="border-2 border-white text-white py-2 px-6 rounded-md hover:bg-white hover:text-black transition duration-300">
+            <a
+              href="/products"
+              className="border-2 border-white text-white py-2 px-6 rounded-md hover:bg-white hover:text-black transition duration-300"
+            >
               Products
-            </button>
+            </a>
           </div>
         </div>
         <div className="relative">

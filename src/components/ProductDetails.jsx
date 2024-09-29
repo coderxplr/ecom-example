@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { productsData } from "../seeders/data";
 import { motion, AnimatePresence } from "framer-motion";
+import { useSwipeable } from "react-swipeable";  // Import swipeable
+
 
 const ProductDetails = () => {
   const { ProductId } = useParams();
@@ -12,7 +14,33 @@ const ProductDetails = () => {
   const [selectedSize, setSelectedSize] = useState(null); // For Length x Width
   const [selectedThickness, setSelectedThickness] = useState(null);
   const [mainImage, setMainImage] = useState("");
-  const [catId,setCatId] = useState("");
+  const [catId, setCatId] = useState("");
+  const [direction, setDirection] = useState(0);  // For tracking swipe direction
+  const [currentIndex, setCurrentIndex] = useState(0);  // Track which image is shown
+
+  
+  // Handle swipe left or right
+  const handleSwipe = (dir) => {
+    const newIndex = (currentIndex + dir + selectedColor.Images.length) % selectedColor.Images.length;
+    setDirection(dir);
+    setCurrentIndex(newIndex);
+    setMainImage(selectedColor.Images[newIndex]);
+  };
+
+  // Swipeable handlers
+  const handlers = useSwipeable({
+    onSwipedLeft: () => handleSwipe(1),   // Swipe left to go to next image
+    onSwipedRight: () => handleSwipe(-1), // Swipe right to go to previous image
+    preventDefaultTouchmoveEvent: true,
+    trackMouse: true,  // Allows swipe with the mouse
+  });
+
+  const slideVariant = {
+    hidden: (direction) => ({ opacity: 0, x: direction > 0 ? 100 : -100 }),  // Slide direction based on swipe
+    visible: { opacity: 1, x: 0 },
+    exit: (direction) => ({ opacity: 0, x: direction > 0 ? -100 : 100 }),  // Slide out in the opposite direction
+  };
+
 
   // Extract unique values for Length x Width and Thickness
   const getUniqueSizes = (sizes) => {
@@ -54,8 +82,13 @@ const ProductDetails = () => {
     window.scrollTo(0, 0);
   }, [product]);
 
-  console.log("-------------------oo","prod - ",product , "variant",selectedVariant ,"color", selectedColor ,"size", selectedSize ,'thicknes: ', selectedThickness ,'image:', mainImage)
-  if (!product || !selectedVariant || !selectedColor || !selectedSize || !selectedThickness) {
+  if (
+    !product ||
+    !selectedVariant ||
+    !selectedColor ||
+    !selectedSize ||
+    !selectedThickness
+  ) {
     return <div>Loading...</div>;
   }
 
@@ -80,44 +113,49 @@ const ProductDetails = () => {
       `🖼️ *Image*: ${mainImage}\n\n` +
       `Could you please provide more details and availability? Thank you!`;
 
-    return `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+    return `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
+      message
+    )}`;
   };
 
-  // Framer Motion variants for sliding effect
-  const slideVariant = {
-    hidden: { opacity: 0, x: 300 },
-    visible: { opacity: 1, x: 0 },
-    exit: { opacity: 0, x: -300 },
-  };
+  
 
   return (
-    <div className="container mx-auto p-4 flex flex-col lg:flex-row font-lexend" >
-      <div className="flex-1 flex flex-col items-center">
-        <AnimatePresence mode="wait">
-          <motion.img
-            key={mainImage}
-            src={mainImage}
-            alt={product.ProductName}
-            className="w-full h-96 p-1 object-contain border"
-            variants={slideVariant}
-            initial="hidden"
-            animate="visible"
-            exit="exit"
-            transition={{ duration: 0.5 }}
+    <div className="container mx-auto p-4 flex flex-col lg:flex-row font-lexend">
+      <div className="flex-1 flex flex-col items-center" {...handlers}>
+      <AnimatePresence mode="wait" custom={direction}>
+        <motion.img
+          key={mainImage} // Unique key to trigger re-render on image change
+          src={mainImage}
+          alt={product.ProductName}
+          className="w-full h-96 p-1 object-contain border"
+          variants={slideVariant}
+          custom={direction}  // Pass direction for animation
+          initial="hidden"
+          animate="visible"
+          exit="exit"
+          transition={{ duration: 0.5 }}
+        />
+      </AnimatePresence>
+
+      {/* Thumbnail Image Selector */}
+      <div className="flex justify-center mt-4 flex-wrap">
+        {selectedColor.Images.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={`${product.ProductName} - ${selectedColor.ColorName} ${index + 1}`}
+            className="w-16 h-16 mx-2 my-1 cursor-pointer object-cover"
+            onClick={() => {
+              setDirection(index > currentIndex ? 1 : -1);  // Set direction based on the clicked thumbnail
+              setCurrentIndex(index);
+              setMainImage(image);
+            }}
           />
-        </AnimatePresence>
-        <div className="flex justify-center mt-4 flex-wrap">
-          {selectedColor.Images.map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              alt={`${product.ProductName} - ${selectedColor.ColorName} ${index + 1}`}
-              className="w-16 h-16 mx-2 my-1 cursor-pointer object-cover"
-              onClick={() => setMainImage(image)}
-            />
-          ))}
-        </div>
+        ))}
       </div>
+    </div>
+
       <div className="flex-1 lg:ml-4 mt-4 lg:mt-0">
         <h1 className="text-3xl font-semibold">{product.ProductName}</h1>
         <p className="text-lg mt-2">{product.Description}</p>
@@ -137,7 +175,9 @@ const ProductDetails = () => {
 
           {/* Length x Width Dropdown */}
           <div className="mt-4">
-            <label className="block text-lg font-semibold">Size (Length x Width)</label>
+            <label className="block text-lg font-semibold">
+              Size (Length x Width)
+            </label>
             <select
               className="w-full mt-2 p-2 border rounded"
               value={selectedSize}
@@ -153,7 +193,9 @@ const ProductDetails = () => {
 
           {/* Thickness Dropdown */}
           <div className="mt-4">
-            <label className="block text-lg font-semibold">{catId === "cat_17253561552887938" ? "Height" : "Thickness"}</label>
+            <label className="block text-lg font-semibold">
+              {catId === "cat_17253561552887938" ? "Height" : "Thickness"}
+            </label>
             <select
               className="w-full mt-2 p-2 border rounded"
               value={selectedThickness}

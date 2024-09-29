@@ -148,7 +148,7 @@ const Header = () => {
         onClick={toggleMenu}
       ></div>
       <div
-        className={`fixed inset-y-0 right-0 w-4/5 bg-white z-50 transform transition-transform duration-300 ${
+        className={`fixed inset-y-0 overflow-y-auto right-0 w-4/5 bg-white z-50 transform transition-transform duration-300 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -174,7 +174,7 @@ const Header = () => {
           {menuItems.map((item, index) => (
             <div
               key={index}
-              className="menu-item border-t border-b border-gold-700 font-lexend"
+              className="menu-item border-t border-b border-gold-700 font-lexend "
             >
               {item.dropdown ? (
                 <>

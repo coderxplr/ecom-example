@@ -540,7 +540,7 @@ const productsData = [
     CategoryID: "cat_1725355725154987",
     Description:
       "Yellow Cobble Handcut Stone is a naturally durable stone with a rustic and textured finish, achieved through skilled hand cutting. This cobble stone is available in a warm yellow hue, adding a charming and traditional look to outdoor spaces. Ideal for pathways, driveways, patios, and landscaping projects, it offers both aesthetic appeal and functionality. The handcut edges enhance its natural beauty, making it a perfect choice for creating timeless and enduring surfaces.",
-    ProductName: "Yellow Cobble Handcut Stone",
+    ProductName: "Yellow Cobble-Handcut",
   },
   {
     Type: "Natural",
@@ -860,7 +860,7 @@ const productsData = [
     CategoryID: "cat_1725355725154987",
     Description:
       "Grey Cobble Handcut Stone is a robust and visually appealing option, featuring a natural grey tone that complements a variety of outdoor settings. Carefully crafted through hand cutting, this cobble stone has a textured surface and irregular edges, adding a touch of authenticity and rustic charm. It is ideal for use in pathways, driveways, patios, and landscaping, offering both durability and aesthetic appeal. The grey hue provides a versatile and classic look, making it suitable for creating elegant and lasting outdoor surfaces.",
-    ProductName: "Grey Cobble",
+    ProductName: "Grey Cobble-Handcut",
   },
   {
     Type: "Natural",
@@ -898,7 +898,7 @@ const productsData = [
     ProductId: "prod_17260750436236649",
     CategoryID: "cat_17253558480386072",
     Description: "Satin",
-    ProductName: "Round Polished Finish -  Tandur Stone",
+    ProductName: "Round Natural Finish",
   },
   {
     Type: "Natural",
@@ -2812,12 +2812,12 @@ const categoriesData = [
     CategoryImage:
       "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204382879_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_204344_0000.png",
   },
-  {
-    CategoryID: "cat_17253559734044558",
-    CategoryName: "Parking/Garden",
-    CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205337986_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_204425_0000.png",
-  },
+  // {
+  //   CategoryID: "cat_17253559734044558",
+  //   CategoryName: "Parking/Garden",
+  //   CategoryImage:
+  //     "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205337986_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_204425_0000.png",
+  // },
   {
     CategoryID: "cat_11023559734044558",
     CategoryName: "Wall Stone",
