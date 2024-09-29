@@ -2378,7 +2378,7 @@ const productsData = [
       },
     ],
     ProductId: "prod_18855241012007679",
-    CategoryID: "cat_17255241012007679",
+    CategoryID: "cat_17255241012007669",
     Description:
       "Roof Slabs are durable and versatile natural stone slabs, ideal for house slabs. Available in various thicknesses, these slabs offer flexibility to meet different structural needs. Their substantial size ensures easy installation, making them a reliable choice for creating strong and long-lasting surfaces. Perfect for residential applications, these slabs provide a solid foundation with the added benefit of customizable thickness to suit specific project requirements.",
     Category: "Outdoor",
@@ -2435,7 +2435,7 @@ const productsData = [
       },
     ],
     ProductId: "prod_19253559734044558",
-    CategoryID: "cat_17253559734044558",
+    CategoryID: "cat_11023559734044558",
     Description:
       "Wall Stone is a highly durable and strong natural stone, perfect for constructing boundary walls, house walls, and basement walls. Its substantial 2×1 feet size not only provides exceptional strength but also makes it easy to construct with, allowing for faster work completion. Ideal for residential and commercial projects, this wall stone offers a reliable, aesthetically pleasing, and efficient solution for creating sturdy and enduring structures.",
     Category: "Outdoor",
@@ -2788,12 +2788,12 @@ const categoriesData = [
     CategoryImage:
       "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726071850116_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_214028_0000.png",
   },
-  {
-    CategoryID: "cat_17253557791246696",
-    CategoryName: "Diamond-Cut Finish",
-    CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726074513399_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_151944_0000.png",
-  },
+  // {
+  //   CategoryID: "cat_17253557791246696",
+  //   CategoryName: "Diamond-Cut Finish",
+  //   CategoryImage:
+  //     "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726074513399_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_151944_0000.png",
+  // },
   {
     CategoryID: "cat_17253558480386072",
     CategoryName: "Round Finish",
@@ -2848,24 +2848,24 @@ const categoriesData = [
     CategoryImage:
       "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727588244240_2.png",
   },
-  {
-    CategoryID: "cat_17254613687023630",
-    CategoryName: "Diamond Pattern",
-    CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205755783_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_143346_0000.png",
-  },
-  {
-    CategoryID: "cat_17255138342343018",
-    CategoryName: " Square Pattern",
-    CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205586412_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_141440_0000.png",
-  },
-  {
-    CategoryID: "cat_1725523795510555",
-    CategoryName: "Line Pattern",
-    CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726206503882_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_150323_0000.png",
-  },
+  // {
+  //   CategoryID: "cat_17254613687023630",
+  //   CategoryName: "Diamond Pattern",
+  //   CategoryImage:
+  //     "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205755783_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_143346_0000.png",
+  // },
+  // {
+  //   CategoryID: "cat_17255138342343018",
+  //   CategoryName: " Square Pattern",
+  //   CategoryImage:
+  //     "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205586412_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_141440_0000.png",
+  // },
+  // {
+  //   CategoryID: "cat_1725523795510555",
+  //   CategoryName: "Line Pattern",
+  //   CategoryImage:
+  //     "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726206503882_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_150323_0000.png",
+  // },
   {
     CategoryID: "cat_17255241012007679",
     CategoryName: "Slab",
