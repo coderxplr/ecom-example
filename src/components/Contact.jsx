@@ -45,8 +45,8 @@ const Contact = () => {
                     />
                     <ContactItem
                       icon={<FaPhoneAlt className="text-gold-700 w-6 h-6 mr-2" />}
-                      text="+91 9985 171363"
-                      link="tel:+919985171363"
+                      text="+91 9985171754"
+                      link="tel:+919985171754"
                     />
                     <ContactItem
                       icon={<FaEnvelope className="text-gold-700 w-6 h-6 mr-2" />}

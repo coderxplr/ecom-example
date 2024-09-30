@@ -306,17 +306,17 @@ const productsData = [
             Thickness: "18mm - 22mm",
           },
           {
+            Width: "23 inches",
+            Length: "17 inches",
+            Thickness: "18mm - 22mm",
+          },
+          {
             Width: "17 inches",
             Length: "17 inches",
             Thickness: "18mm - 22mm",
           },
           {
             Width: "11 inches",
-            Length: "23 inches",
-            Thickness: "18mm - 22mm",
-          },
-          {
-            Width: "17 inches",
             Length: "23 inches",
             Thickness: "18mm - 22mm",
           },
@@ -897,7 +897,7 @@ const productsData = [
     ],
     ProductId: "prod_17260750436236649",
     CategoryID: "cat_17253558480386072",
-    Description: "Satin",
+    Description: "The Round Tandur Natural Finish Stone is specifically designed for garden applications, adding a natural and timeless aesthetic to any outdoor space Known for its durability and weather resistance, this stone enhances garden landscapes with its earthy texture and robust build. Whether used as a decorative element, pathway accent, or to create unique outdoor patterns, its round shape and natural finish make it a perfect choice for enhancing the beauty of your garden while ensuring lasting performance in all weather conditions.",
     ProductName: "Round Natural Finish",
   },
   {
@@ -1403,17 +1403,17 @@ const productsData = [
           {
             Width: "23 inches",
             Length: "23 inches",
-            Thickness: "18mm - 22mm",
+            Thickness: "25mm - 30mm",
           },
           {
             Width: "23 inches",
             Length: "23 inches",
-            Thickness: " 25mm - 30mm",
+            Thickness: "25mm - 30mm",
           },
           {
             Width: " 17 inches",
             Length: " 17 inches",
-            Thickness: "18mm - 22mm",
+            Thickness: "25mm - 30mm",
           },
           {
             Width: "17 inches",
@@ -1454,17 +1454,17 @@ const productsData = [
           {
             Width: "23 inches",
             Length: "23 inches",
-            Thickness: "18mm - 22mm",
+            Thickness: "25mm - 30mm",
           },
           {
             Width: "23 inches",
             Length: "23 inches",
-            Thickness: " 25mm - 30mm",
+            Thickness: "25mm - 30mm",
           },
           {
             Width: " 17 inches",
             Length: " 17 inches",
-            Thickness: "18mm - 22mm",
+            Thickness: "25mm - 30mm",
           },
           {
             Width: "17 inches",
@@ -1505,17 +1505,17 @@ const productsData = [
           {
             Width: "23 inches",
             Length: "23 inches",
-            Thickness: "18mm - 22mm",
+            Thickness: "25mm - 30mm",
           },
           {
             Width: "23 inches",
             Length: "23 inches",
-            Thickness: " 25mm - 30mm",
+            Thickness: "25mm - 30mm",
           },
           {
             Width: " 17 inches",
             Length: " 17 inches",
-            Thickness: "18mm - 22mm",
+            Thickness: "25mm - 30mm",
           },
           {
             Width: "17 inches",
@@ -1766,6 +1766,7 @@ const productsData = [
           {
             Edge: "Machine Cutting & Quarry Cutting",
             Images: [
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727679885778_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240730_230450_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208072147_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240730_225800_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208079106_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240730_225901_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208055825_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240801_125355_0000.png",
@@ -1812,32 +1813,32 @@ const productsData = [
           {
             Width: "11 inches",
             Length: "59 Inches",
-            Thickness: " 20mm - 30mm",
+            Thickness: "20mm - 30mm",
           },
           {
             Length: "3 Feet",
             Width: "1 Feet -> Quarry Cutting",
-            Thickness: " 18mm - 22mm",
+            Thickness: "20mm - 30mm",
           },
           {
             Length: "3.5 Feet",
             Width: "1 Feet -> Quarry Cutting",
-            Thickness: " 18mm - 22mm",
+            Thickness: "20mm - 30mm",
           },
           {
             Length: "4 Feet",
             Width: "1 Feet -> Quarry Cutting",
-            Thickness: " 18mm - 22mm",
+            Thickness: "20mm - 30mm",
           },
           {
             Length: "4.5 Feet",
             Width: "1 Feet -> Quarry Cutting",
-            Thickness: " 18mm - 22mm",
+            Thickness: "20mm - 30mm",
           },
           {
             Length: "5 Feet",
             Width: "1 Feet -> Quarry Cutting",
-            Thickness: " 18mm - 22mm",
+            Thickness: "20mm - 30mm",
           },
         ],
         Colors: [
@@ -2109,8 +2110,8 @@ const productsData = [
             ColorName: "Grey",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331482819_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_192326_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331482837_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193337_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331482841_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193459_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331482837_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193337_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331482854_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193706_0000.png",
             ],
           },
@@ -2271,9 +2272,9 @@ const productsData = [
             Edge: "Machine Cut",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333213511_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240812_154113_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333213495_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_085402_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333213466_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160639_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333213492_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_084750_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333213466_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240807_160639_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333213495_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240808_085402_0000.png",
             ],
           },
         ],
@@ -2654,6 +2655,11 @@ const productsData = [
             Width: "23 inches",
             Thickness: "18mm to 22mm",
           },
+          {
+            Length: "23 inches",
+            Width: "23 inches",
+            Thickness: "25mm to 30mm",
+          },
         ],
         Colors: [
           {
@@ -2724,7 +2730,7 @@ const productsData = [
           {
             Length: "23 Inches",
             Width: "23 Inches",
-            Thickness: "18mm - 22mm",
+            Thickness: "25mm - 30mm",
           },
           {
             Length: "23 Inches",
@@ -2734,7 +2740,7 @@ const productsData = [
           {
             Length: "17 Inches",
             Width: "17 Inches",
-            Thickness: "18mm - 22mm",
+            Thickness: "25mm - 30mm",
           },
           {
             Length: "17 Inches",
@@ -2751,7 +2757,7 @@ const productsData = [
             ColorName: "Brown, Green, Black, Grey, & Yellow",
           },
         ],
-        Finishes: "Natural & Leather",
+        Finish: "Natural & Leather",
         VariantID: "001A",
       },
     ],
@@ -2778,7 +2784,8 @@ const categoriesData = [
   },
   {
     CategoryID: "cat_17253556539278027",
-    CategoryName: "Leather",
+    CategoryName: "Leather  Finish",
+
     CategoryImage:
       "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209688883_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_195853_0000.png",
   },

@@ -49,7 +49,7 @@ const Header = () => {
     },
     { label: "Gallery", href: "/gallery" },
     { label: "Our Work", href: "/ourwork" },
-    { label: "About", href: "/about" },
+    { label: "About Us", href: "/about" },
     { label: "Contact Us", href: "/contactus" },
   ];
 
