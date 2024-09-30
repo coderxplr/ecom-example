@@ -1579,10 +1579,41 @@ const productsData = [
             Length: "2.5 Feet",
             Thickness: "25mm - 30mm",
           },
+          // -------
+          {
+            Width: "23 inches -> machine",
+            Length: "71 inches",
+            Thickness: "25mm - 30mm",
+          },
+          {
+            Width: "2 inches",
+            Length: "2.5 inches",
+            Thickness: "25mm - 30mm",
+          },
+          {
+            Width: "2 inches -> Machine cut",
+            Length: "2.5 inches",
+            Thickness: "25mm - 30mm",
+          },
+          {
+            Width: "2 inches",
+            Length: "2.5 inches",
+            Thickness: "25mm - 30mm",
+          },
+          {
+            Width: "2 inches",
+            Length: "2.5 inches",
+            Thickness: "25mm - 30mm",
+          },
+          {
+            Width: "2 inches",
+            Length: "2.5 inches",
+            Thickness: "25mm - 30mm",
+          },
         ],
         Colors: [
           {
-            Edge: "Quarry Cutting",
+            Edge: "Quarry Cut & Machine Cut",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726206808808_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_205041_0000.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726206815737_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_221009_0000.png",
@@ -2774,26 +2805,26 @@ const categoriesData = [
     CategoryID: "cat_1725355554757286",
     CategoryName: "Slice Finish",
     CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209505634_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_231756_0000.png",
+    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986947_Slice%20Polish.png",
   },
   {
     CategoryID: "cat_17253559734044558",
     CategoryName: "Parking/Garden",
     CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726205337986_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_204425_0000.png",
+    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986860_Parking.png",
   },
   {
     CategoryID: "cat_17253556539278027",
-    CategoryName: "Leather  Finish",
+    CategoryName: "Leather Finish",
 
     CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726209688883_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_195853_0000.png",
+    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986843_Leather%20Finish_.png",
   },
   {
     CategoryID: "cat_1725355725154987",
     CategoryName: "Cobbles",
     CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726071850116_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_214028_0000.png",
+    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986986_Cobbles.png",
   },
   // {
   //   CategoryID: "cat_17253557791246696",
@@ -2805,19 +2836,18 @@ const categoriesData = [
     CategoryID: "cat_17253558480386072",
     CategoryName: "Round Finish",
     CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726313126972_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240801_132757_0000.png",
+    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986890_Round%20Natural%20finish.png",
   },
   {
     CategoryID: "cat_17253558480386069",
     CategoryName: "Chapati Maker",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726313126950_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240731_204223_0000.png",
-  },
+"https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986731_Chapati%20maker.png"  },
   {
     CategoryID: "cat_17253559205241743",
     CategoryName: "High Polish",
     CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726204382879_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240826_204344_0000.png",
+    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986993_High%20Polish.png",
   },
   // {
   //   CategoryID: "cat_17253559734044558",
@@ -2829,31 +2859,31 @@ const categoriesData = [
     CategoryID: "cat_11023559734044558",
     CategoryName: "Wall Stone",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726336015170_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_173528_0000.png",
+    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986980_Wall%20Stone.png",
   },
   {
     CategoryID: "cat_17253560197007068",
     CategoryName: "Steps",
     CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726208055825_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240801_125355_0000.png",
+    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986958_Steps.png",
   },
   {
     CategoryID: "cat_17253561552887938", // need to add
     CategoryName: "Wall Cladding",
     CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726331433680_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_193515_0000.png",
+    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986971_Wall%20Cladding_.png",
   },
   {
     CategoryID: "cat_17253562110392769",
     CategoryName: "Satin Finish",
     CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726333164546_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240811_001137_0000.png",
+    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986903_Satin%20Finish.png",
   },
   {
     CategoryID: "cat_17253562990392769",
     CategoryName: "Mirror Finish",
     CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727588244240_2.png",
+    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986999_Mirror%20Polish.png"
   },
   // {
   //   CategoryID: "cat_17254613687023630",
@@ -2877,19 +2907,19 @@ const categoriesData = [
     CategoryID: "cat_17255241012007679",
     CategoryName: "Slab",
     CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726207234903_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240806_225403_0000%20%282%29.png",
+    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986927_Slab.png",
   },
   {
     CategoryID: "cat_17255241012007669",
     CategoryName: "Roof Slab",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726335584206_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240827_182700_0000.png",
+    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986878_Roof%20Slab.png",
   },
   {
     CategoryID: "cat_17200241012007679",
     CategoryName: "Natural Finish",
     CategoryImage:
-      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727578477185_natural%20finish.png",
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986723_Brown%20Natural%20finish_.png",
   },
 ];
 
