@@ -753,14 +753,14 @@ const productsData = [
         Colors: [
           {
             Edge: "Machine Cut",
-            Images:  [
+            Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727593333360_1.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727593333349_2.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727593333335_3.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727593333322_4.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727593333320_5.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727593333301_6.png",
-          ],
+            ],
             ColorName: "Brown, Green, Black, Grey, Yellow",
           },
         ],
@@ -883,10 +883,9 @@ const productsData = [
           {
             Edge: "Machine Cut",
             Images: [
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726074950830_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240731_204223_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726074964677_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240731_204331_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726074979023_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240801_132757_0000.png",
-              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1726074987703_Light%20Pink%20Salmon%20Skincare%20Product%20Features%20Instagram%20Post_20240810_160908_0000.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727865993393_1.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727865993064_2.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727865993043_3.png",
             ],
             ColorName: "Brown, Green, Grey , Yellow",
           },
@@ -897,7 +896,8 @@ const productsData = [
     ],
     ProductId: "prod_17260750436236649",
     CategoryID: "cat_17253558480386072",
-    Description: "The Round Tandur Natural Finish Stone is specifically designed for garden applications, adding a natural and timeless aesthetic to any outdoor space Known for its durability and weather resistance, this stone enhances garden landscapes with its earthy texture and robust build. Whether used as a decorative element, pathway accent, or to create unique outdoor patterns, its round shape and natural finish make it a perfect choice for enhancing the beauty of your garden while ensuring lasting performance in all weather conditions.",
+    Description:
+      "The Round Tandur Natural Finish Stone is specifically designed for garden applications, adding a natural and timeless aesthetic to any outdoor space Known for its durability and weather resistance, this stone enhances garden landscapes with its earthy texture and robust build. Whether used as a decorative element, pathway accent, or to create unique outdoor patterns, its round shape and natural finish make it a perfect choice for enhancing the beauty of your garden while ensuring lasting performance in all weather conditions.",
     ProductName: "Round Natural Finish",
   },
   {
@@ -936,7 +936,7 @@ const productsData = [
     ProductId: "prod_17260752342098937",
     CategoryID: "cat_17253558480386069",
     Description:
-      "The Round polished stone offers a blend of natural beauty and practical functionality for garden spaces. This stone is round and flat, featuring a dual finish with one side polished for a smooth, refined look and the other left in its natural state. The polished side adds a subtle shine, while the natural surface retains the stone's authentic texture, providing versatility in design. \n\nIdeal for garden pathways, stepping stones, or decorative elements, the Round Tandur Stone’s durable nature makes it perfect for outdoor use. Whether you’re creating a pathway or adding accent features, this stone’s combination of polished and natural surfaces enhances the aesthetic appeal while seamlessly blending with the natural environment.",
+      "Our Round Chapati Maker Stone is made from Tandur Natural Stone and has a smooth, polished surface. It’s perfect for rolling chapatis or other flatbreads, thanks to its durability and even surface. This stone is also great for outdoor use in gardens, adding a natural and stylish look to pathways or landscaping. Whether you’re using it in the kitchen or outdoors, it’s a practical and attractive choice.",
     ProductName: "Chapati Maker",
   },
   {
@@ -1581,33 +1581,33 @@ const productsData = [
           },
           // -------
           {
-            Width: "23 inches -> machine",
+            Width: "23 inches (Machine Cut)",
             Length: "71 inches",
             Thickness: "25mm - 30mm",
           },
           {
-            Width: "2 inches",
-            Length: "2.5 inches",
+            Width: "23 inches (Machine Cut)",
+            Length: "59 inches",
             Thickness: "25mm - 30mm",
           },
           {
-            Width: "2 inches -> Machine cut",
-            Length: "2.5 inches",
+            Width: "23 inches (Machine Cut)",
+            Length: "47 inches",
             Thickness: "25mm - 30mm",
           },
           {
-            Width: "2 inches",
-            Length: "2.5 inches",
+            Width: "23 inches (Machine Cut)",
+            Length: "41 inches",
             Thickness: "25mm - 30mm",
           },
           {
-            Width: "2 inches",
-            Length: "2.5 inches",
+            Width: "23 inches (Machine Cut)",
+            Length: "35 inches",
             Thickness: "25mm - 30mm",
           },
           {
-            Width: "2 inches",
-            Length: "2.5 inches",
+            Width: "23 inches (Machine Cut)",
+            Length: "29 inches",
             Thickness: "25mm - 30mm",
           },
         ],
@@ -1631,7 +1631,7 @@ const productsData = [
     CategoryID: "cat_17255241012007679",
     Description:
       "The Tandur Natural Stone Slabs are perfect for enhancing outdoor areas with their robust and rustic appeal. Featuring a natural surface, these large slabs highlight the stone's inherent texture and character, making them ideal for applications such as driveways, patios, and walkways. \n\nAvailable in substantial sizes, these slabs are designed to withstand the elements and provide a long-lasting solution for various exterior settings. The natural surface ensures a non-slip texture, combining both functionality and aesthetic charm for any outdoor project.",
-    ProductName: "Grey Slab",
+    ProductName: "Grey Natural Slab",
   },
   {
     Type: "Natural",
@@ -1711,6 +1711,36 @@ const productsData = [
           {
             Width: "23 Inches",
             Length: "29 Inches",
+            Thickness: "25mm - 30mm",
+          },
+          {
+            Width: "2 feet (Quarry cut)",
+            Length: "5 feet",
+            Thickness: "25mm - 30mm",
+          },
+          {
+            Width: "2 feet (Quarry cut)",
+            Length: "4 feet",
+            Thickness: "25mm - 30mm",
+          },
+          {
+            Width: "2 feet (Quarry cut)",
+            Length: "3.5 feet",
+            Thickness: "25mm - 30mm",
+          },
+          {
+            Width: "2 feet (Quarry cut)",
+            Length: "3 feet",
+            Thickness: "25mm - 30mm",
+          },
+          {
+            Width: "2 feet (Quarry cut)",
+            Length: "2.5 feet",
+            Thickness: "25mm - 30mm",
+          },
+          {
+            Width: "2 feet (Quarry cut)",
+            Length: "2 feet",
             Thickness: "25mm - 30mm",
           },
         ],
@@ -2506,6 +2536,7 @@ const productsData = [
             Edge: "Machine Cut",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727578477185_natural%20finish.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727866257374_2.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727579568977_secnd.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727579600833_thrd.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727579624149_frth.png",
@@ -2558,6 +2589,7 @@ const productsData = [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727580152538_1.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727580152534_2.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727580152518_3.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727866560480_5.png",
             ],
             ColorName: "Green",
           },
@@ -2608,6 +2640,7 @@ const productsData = [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727583636381_2.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727583636334_3.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727583636326_4.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727866735384_5.png",
             ],
             ColorName: "Yellow",
           },
@@ -2805,26 +2838,26 @@ const categoriesData = [
     CategoryID: "cat_1725355554757286",
     CategoryName: "Slice Finish",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986947_Slice%20Polish.png",
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986947_Slice%20Polish.png",
   },
   {
     CategoryID: "cat_17253559734044558",
     CategoryName: "Parking/Garden",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986860_Parking.png",
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986860_Parking.png",
   },
   {
     CategoryID: "cat_17253556539278027",
     CategoryName: "Leather Finish",
 
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986843_Leather%20Finish_.png",
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986843_Leather%20Finish_.png",
   },
   {
     CategoryID: "cat_1725355725154987",
     CategoryName: "Cobbles",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986986_Cobbles.png",
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986986_Cobbles.png",
   },
   // {
   //   CategoryID: "cat_17253557791246696",
@@ -2836,18 +2869,19 @@ const categoriesData = [
     CategoryID: "cat_17253558480386072",
     CategoryName: "Round Finish",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986890_Round%20Natural%20finish.png",
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986890_Round%20Natural%20finish.png",
   },
   {
     CategoryID: "cat_17253558480386069",
     CategoryName: "Chapati Maker",
     CategoryImage:
-"https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986731_Chapati%20maker.png"  },
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986731_Chapati%20maker.png",
+  },
   {
     CategoryID: "cat_17253559205241743",
     CategoryName: "High Polish",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986993_High%20Polish.png",
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986993_High%20Polish.png",
   },
   // {
   //   CategoryID: "cat_17253559734044558",
@@ -2859,31 +2893,31 @@ const categoriesData = [
     CategoryID: "cat_11023559734044558",
     CategoryName: "Wall Stone",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986980_Wall%20Stone.png",
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986980_Wall%20Stone.png",
   },
   {
     CategoryID: "cat_17253560197007068",
     CategoryName: "Steps",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986958_Steps.png",
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986958_Steps.png",
   },
   {
     CategoryID: "cat_17253561552887938", // need to add
     CategoryName: "Wall Cladding",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986971_Wall%20Cladding_.png",
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986971_Wall%20Cladding_.png",
   },
   {
     CategoryID: "cat_17253562110392769",
     CategoryName: "Satin Finish",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986903_Satin%20Finish.png",
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986903_Satin%20Finish.png",
   },
   {
     CategoryID: "cat_17253562990392769",
     CategoryName: "Mirror Finish",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986999_Mirror%20Polish.png"
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986999_Mirror%20Polish.png",
   },
   // {
   //   CategoryID: "cat_17254613687023630",
@@ -2907,13 +2941,13 @@ const categoriesData = [
     CategoryID: "cat_17255241012007679",
     CategoryName: "Slab",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986927_Slab.png",
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986927_Slab.png",
   },
   {
     CategoryID: "cat_17255241012007669",
     CategoryName: "Roof Slab",
     CategoryImage:
-    "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986878_Roof%20Slab.png",
+      "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727698986878_Roof%20Slab.png",
   },
   {
     CategoryID: "cat_17200241012007679",
@@ -2979,7 +3013,7 @@ const gallaryImages = [
   "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727592828819_IMG-20240711-WA0063.jpg",
   "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727592828827_IMG-20240711-WA0064.jpg",
   "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727592828831_IMG-20240711-WA0068.jpg",
-  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727592828836_IMG-20240716-WA0012.jpg"
+  "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727592828836_IMG-20240716-WA0012.jpg",
 ];
 
 const workImages = [
