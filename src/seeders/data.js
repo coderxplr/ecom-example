@@ -2587,6 +2587,7 @@ const productsData = [
             Edge: "Machine Cut",
             Images: [
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727580152538_1.png",
+              "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727950865950_2.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727580152534_2.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727580152518_3.png",
               "https://acenaturalstns.s3.ap-south-1.amazonaws.com/uploads/1727866560480_5.png",
