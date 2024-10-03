@@ -23,10 +23,10 @@ const Footer = () => {
           </a>
         </div>
         <div className="text-center mb-2 text-sm md:text-base lg:text-lg">
-          <p>Made By: Mohammed S Suleman</p>
           <a href="https://wa.me/8464800105" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center space-x-2 text-gold-700 m-2">
-            <FaWhatsapp size={24} className='text-green-600'/>
-            <span>8464800105</span>
+            <p className='text-blue-700'>Developed By: Mohammed S Suleman</p>
+            {/* <FaWhatsapp size={24} className='text-green-600'/>
+            <span>8464800105</span> */}
           </a>
         </div>
       </div>
